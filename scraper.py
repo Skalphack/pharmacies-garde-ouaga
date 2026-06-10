@@ -6,10 +6,23 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://infossante.net/pharmacie-de-garde-de-ouagadougou/"
+
+# Headers qui imitent exactement un vrai navigateur Firefox sur Windows
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
+    "DNT": "1",
 }
+
 OUTPUT_FILE = "pharmacies_garde_ouaga.json"
 
 
@@ -21,33 +34,21 @@ def nettoyer_nom(nom):
 
 
 def extraire_telephone(col):
-    """
-    Le site a deux formats de lien téléphone :
-      Format 1 : <a href="tel:25318424">   (sans espace)
-      Format 2 : <a href="tel: 25368648">  (avec espace après tel:)
-    On cherche les deux.
-    """
-    # Chercher TOUS les liens <a> dans la colonne
     for lien in col.find_all("a"):
         href = lien.get("href", "")
-        # Vérifier si c'est un lien téléphone (avec ou sans espace)
         if href.lower().startswith("tel:"):
-            # Extraire le numéro : supprimer "tel:" et tous les espaces
             numero = href[4:].strip()
             numero = re.sub(r'[\s\-\.]', '', numero)
-            # Enlever préfixe international
             if numero.startswith("+226"):
                 numero = numero[4:]
             elif numero.startswith("00226"):
                 numero = numero[5:]
-            # Retourner seulement si c'est un vrai numéro (au moins 8 chiffres)
             if len(numero) >= 8 and numero.isdigit():
                 return numero
     return ""
 
 
 def extraire_gps(col):
-    """Extraire lat/lng depuis les liens Google Maps."""
     for lien in col.find_all("a"):
         href = lien.get("href", "")
         if "maps.google.com" in href or "google.com/maps" in href:
@@ -61,21 +62,43 @@ def scraper_pharmacies():
     print(f"Connexion a {URL} ...")
 
     try:
-        response = requests.get(URL, headers=HEADERS, timeout=30)
+        # Utiliser une session pour mieux imiter un navigateur
+        session = requests.Session()
+        session.headers.update(HEADERS)
+
+        # Visiter d'abord la page d'accueil (comme ferait un vrai navigateur)
+        session.get("https://infossante.net/", timeout=15)
+
+        # Puis visiter la page des gardes
+        response = session.get(URL, timeout=30)
         response.raise_for_status()
+
     except Exception as e:
         print(f"Erreur connexion : {e}")
         return []
 
     soup = BeautifulSoup(response.text, "html.parser")
-    table = soup.find("table")
+
+    # Compter toutes les tables pour déboguer
+    tables = soup.find_all("table")
+    print(f"Nombre de tableaux trouves sur la page : {len(tables)}")
+
+    # Chercher la table qui contient les pharmacies
+    table = None
+    for t in tables:
+        rows = t.find_all("tr")
+        if len(rows) > 2:  # La bonne table a plusieurs lignes
+            table = t
+            print(f"Table choisie : {len(rows)} lignes")
+            break
 
     if not table:
-        print("Aucun tableau trouve sur la page.")
+        print("Aucun tableau trouve. Contenu de la page (500 premiers chars) :")
+        print(response.text[:500])
         return []
 
     rows = table.find_all("tr")
-    print(f"{len(rows) - 1} lignes trouvees dans le tableau")
+    print(f"{len(rows) - 1} pharmacies dans le tableau")
 
     date_aujourdhui = datetime.now().strftime("%Y-%m-%d")
     pharmacies = []
@@ -85,25 +108,19 @@ def scraper_pharmacies():
         if len(cols) < 4:
             continue
 
-        # Nom (col 1)
         nom_brut = cols[1].get_text(strip=True)
         if not nom_brut:
             continue
         nom = nettoyer_nom(nom_brut)
 
-        # Adresse (col 2) — supprimer "situé à X Km de vous"
         adresse = cols[2].get_text(strip=True)
-        adresse = re.sub(r'\s*situe[e]?\s+a\s+[\d.,]+\s*Km.*', '', adresse, flags=re.IGNORECASE)
         adresse = re.sub(r'\s*situé[e]?\s+à\s+[\d.,]+\s*Km.*', '', adresse, flags=re.IGNORECASE)
+        adresse = re.sub(r'\s*situe[e]?\s+a\s+[\d.,]+\s*Km.*', '', adresse, flags=re.IGNORECASE)
         adresse = adresse.strip()
-        # Supprimer "Ouagadougou, " au début
         if adresse.lower().startswith("ouagadougou, "):
             adresse = adresse[13:].strip()
 
-        # Téléphone (col 3) — gère les deux formats tel: et tel: (avec espace)
         telephone = extraire_telephone(cols[3])
-
-        # GPS (col 3)
         lat, lng = extraire_gps(cols[3])
 
         pharmacie = {
