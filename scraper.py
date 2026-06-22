@@ -7,10 +7,10 @@ from datetime import date
 OUTPUT_FILE = "pharmacies_garde_ouaga.json"
 URL = "https://infossante.net/pharmacie-de-garde-de-ouagadougou/"
 
+
 def scrape():
     today = date.today().strftime("%Y-%m-%d")
     headers = {"User-Agent": "Mozilla/5.0 (compatible; FastPharma/1.0)"}
-
     try:
         resp = requests.get(URL, headers=headers, timeout=15)
         resp.raise_for_status()
@@ -19,7 +19,6 @@ def scrape():
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
-
     table = soup.find("table")
     if not table:
         print("❌ Tableau introuvable dans la page")
@@ -29,13 +28,46 @@ def scrape():
     print(f"📋 {len(rows)} lignes trouvées dans le tableau")
 
     pharmacies = []
-
-    for i, row in enumerate(rows[:3]):
+    for row in rows:
         cols = row.find_all("td")
-        print(f"\n--- Row {i} : {len(cols)} cols ---")
-        for j, col in enumerate(cols):
-            print(f"  col[{j}]: {col.get_text(strip=True)[:80]}")
-            print(f"         html: {str(col)[:150]}")
+        if len(cols) < 4:
+            continue
+
+        # col[1] : nom + lien fiche
+        nom_tag = cols[1].find("a")
+        nom = nom_tag.get_text(strip=True) if nom_tag else cols[1].get_text(strip=True)
+        fiche_url = nom_tag["href"] if nom_tag else None
+
+        # col[2] : adresse (on retire "situé à X.XX Km de vous")
+        adresse_raw = cols[2].get_text(" ", strip=True)
+        adresse = re.sub(r"situé à [\d.]+ Km de vous", "", adresse_raw).strip()
+        adresse = re.sub(r"\s+", " ", adresse).strip(" ,")
+
+        # col[3] : tel + statut + lien itinéraire (contient lat/lng)
+        tel_tag = cols[3].find("a", href=re.compile(r"^tel:"))
+        telephone = tel_tag.get_text(strip=True) if tel_tag else None
+        if telephone:
+            telephone = re.sub(r"\s+", "", telephone)  # ex: "25 40 70 09" -> "25407009"
+
+        maps_tag = cols[3].find("a", href=re.compile(r"daddr="))
+        lat, lng = None, None
+        if maps_tag:
+            m = re.search(r"daddr=([\-\d.]+),([\-\d.]+)", maps_tag["href"])
+            if m:
+                lat, lng = float(m.group(1)), float(m.group(2))
+
+        statut = "en_garde" if "En garde" in cols[3].get_text() else "inconnu"
+
+        pharmacies.append({
+            "nom": nom,
+            "adresse": adresse,
+            "telephone": telephone,
+            "lat": lat,
+            "lng": lng,
+            "statut": statut,
+            "fiche_url": fiche_url,
+            "date_maj": today,
+        })
 
     return pharmacies
 
@@ -43,14 +75,11 @@ def scrape():
 def main():
     print(f"🔍 Scraping infossante.net...")
     pharmacies = scrape()
-
     if not pharmacies:
-        print("⚠️ Debug en cours — vérifier les logs ci-dessus")
+        print("⚠️ Aucune pharmacie récupérée")
         return
-
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(pharmacies, f, ensure_ascii=False, indent=2)
-
     print(f"✅ {len(pharmacies)} pharmacies sauvegardées dans {OUTPUT_FILE}")
 
 
