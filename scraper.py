@@ -1,40 +1,98 @@
+# pip install lxml beautifulsoup4 requests --break-system-packages
+import json
 import re
 import requests
+from bs4 import BeautifulSoup
+from datetime import date
 
+OUTPUT_FILE = "pharmacies_garde_ouaga.json"
 URL = "https://infossante.net/pharmacie-de-garde-de-ouagadougou/"
-headers = {"User-Agent": "Mozilla/5.0 (compatible; FastPharma/1.0)"}
 
-resp = requests.get(URL, headers=headers, timeout=15)
-print(f"Status: {resp.status_code}")
-print(f"Taille réponse: {len(resp.text)} caractères\n")
 
-# Sauvegarder le brut pour inspection manuelle
-with open("debug_raw.html", "w", encoding="utf-8") as f:
-    f.write(resp.text)
-print("📁 HTML brut sauvegardé dans debug_raw.html\n")
+def scrape():
+    today = date.today().strftime("%Y-%m-%d")
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; FastPharma/1.0)"}
+    try:
+        resp = requests.get(URL, headers=headers, timeout=15)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"❌ Erreur requête : {e}")
+        return []
 
-# Compter les occurrences clés dans TOUTE la page (pas juste dans <table>)
-print(f"Occurrences de 'tel:' dans tout le HTML : {resp.text.count('tel:')}")
-print(f"Occurrences de 'daddr=' dans tout le HTML : {resp.text.count('daddr=')}")
-print(f"Occurrences de 'En garde' dans tout le HTML : {resp.text.count('En garde')}")
-print(f"Occurrences de '<table' dans tout le HTML : {resp.text.count('<table')}")
-print(f"Occurrences de '<tr' dans tout le HTML : {resp.text.count('<tr')}")
-print(f"Occurrences de 'pharmacie-' (liens fiches) : {resp.text.count('pharmacie-')}\n")
+    soup = BeautifulSoup(resp.text, "lxml")
 
-# Chercher des blocs <script> contenant potentiellement les données en JSON
-scripts_with_data = re.findall(r"<script[^>]*>(.*?)</script>", resp.text, re.DOTALL)
-print(f"Nombre de balises <script> : {len(scripts_with_data)}")
-for i, s in enumerate(scripts_with_data):
-    if "daddr" in s or "pharmacie" in s.lower() or "En garde" in s:
-        print(f"\n--- Script #{i} contient des indices (extrait) ---")
-        print(s[:500])
+    # Il y a plusieurs <table> dans la page (layout, pub...).
+    # On cible celle qui contient des liens tel: (= la table des pharmacies)
+    table = None
+    all_tables = soup.find_all("table")
+    print(f"🔎 {len(all_tables)} table(s) trouvée(s) dans la page")
+    for t in all_tables:
+        if t.find("a", href=re.compile(r"^tel:")):
+            table = t
+            break
 
-# Vérifier si le User-Agent change la réponse (test avec UA "bot")
-resp_bot = requests.get(
-    URL,
-    headers={"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"},
-    timeout=15,
-)
-print(f"\n--- Test avec User-Agent Googlebot ---")
-print(f"Occurrences de 'tel:' : {resp_bot.text.count('tel:')}")
-print(f"Occurrences de '<tr' : {resp_bot.text.count('<tr')}")
+    if not table:
+        print("❌ Tableau des pharmacies introuvable (aucune table avec lien tel:)")
+        return []
+
+    rows = table.find_all("tr")[1:]  # skip header
+    print(f"📋 {len(rows)} lignes trouvées dans le tableau")
+
+    pharmacies = []
+    for row in rows:
+        cols = row.find_all("td")
+        if len(cols) < 4:
+            continue
+
+        # col[1] : nom + lien fiche
+        nom_tag = cols[1].find("a")
+        nom = nom_tag.get_text(strip=True) if nom_tag else cols[1].get_text(strip=True)
+        fiche_url = nom_tag["href"] if nom_tag else None
+
+        # col[2] : adresse (on retire "situé à X.XX Km de vous")
+        adresse_raw = cols[2].get_text(" ", strip=True)
+        adresse = re.sub(r"situé à [\d.]+ Km de vous", "", adresse_raw).strip()
+        adresse = re.sub(r"\s+", " ", adresse).strip(" ,")
+
+        # col[3] : tel + statut + lien itinéraire (contient lat/lng)
+        tel_tag = cols[3].find("a", href=re.compile(r"^tel:"))
+        telephone = tel_tag.get_text(strip=True) if tel_tag else None
+        if telephone:
+            telephone = re.sub(r"\s+", "", telephone)  # ex: "25 40 70 09" -> "25407009"
+
+        maps_tag = cols[3].find("a", href=re.compile(r"daddr="))
+        lat, lng = None, None
+        if maps_tag:
+            m = re.search(r"daddr=([\-\d.]+),([\-\d.]+)", maps_tag["href"])
+            if m:
+                lat, lng = float(m.group(1)), float(m.group(2))
+
+        statut = "en_garde" if "En garde" in cols[3].get_text() else "inconnu"
+
+        pharmacies.append({
+            "nom": nom,
+            "adresse": adresse,
+            "telephone": telephone,
+            "lat": lat,
+            "lng": lng,
+            "statut": statut,
+            "fiche_url": fiche_url,
+            "date_maj": today,
+        })
+
+    return pharmacies
+
+
+def main():
+    print(f"🔍 Scraping infossante.net...")
+    pharmacies = scrape()
+    if not pharmacies:
+        print("⚠️ Aucune pharmacie récupérée")
+        return
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(pharmacies, f, ensure_ascii=False, indent=2)
+    print(f"✅ {len(pharmacies)} pharmacies sauvegardées dans {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
