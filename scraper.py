@@ -19,9 +19,19 @@ def scrape():
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    table = soup.find("table")
+
+    # Il y a plusieurs <table> dans la page (layout, pub...).
+    # On cible celle qui contient des liens tel: (= la table des pharmacies)
+    table = None
+    all_tables = soup.find_all("table")
+    print(f"🔎 {len(all_tables)} table(s) trouvée(s) dans la page")
+    for t in all_tables:
+        if t.find("a", href=re.compile(r"^tel:")):
+            table = t
+            break
+
     if not table:
-        print("❌ Tableau introuvable dans la page")
+        print("❌ Tableau des pharmacies introuvable (aucune table avec lien tel:)")
         return []
 
     rows = table.find_all("tr")[1:]  # skip header
