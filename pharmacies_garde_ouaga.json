@@ -1,10 +1,12 @@
 [
   {
-    "date": "2026-06-22",
     "nom": "pharmacie du Centre",
-    "adresse": "460, Av de la nation collée à Telecel siège",
+    "adresse": "Ouagadougou, 460, Av de la nation collée à Telecel siège",
     "telephone": "25311660",
     "lat": 12.3702,
-    "lng": -1.52449
+    "lng": -1.52449,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-du-centre-82",
+    "date_maj": "2026-06-22"
   }
 ]
