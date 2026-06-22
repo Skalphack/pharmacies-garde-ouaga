@@ -77,7 +77,7 @@ def scrape():
             "lng": lng,
             "statut": statut,
             "fiche_url": fiche_url,
-            "date_maj": today,
+            "date": today,
         })
 
     return pharmacies
