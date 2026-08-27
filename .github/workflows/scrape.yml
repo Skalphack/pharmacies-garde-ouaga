@@ -1,7 +1,10 @@
 name: Grattoir Pharmacies de Garde Ouaga
 on:
   schedule:
-    - cron: '5 0 * * *'
+    - cron: '5 0 * * *'   # 00h05 UTC — 1ère tentative
+    - cron: '0 2 * * *'   # 02h00 UTC — 2ème tentative
+    - cron: '0 4 * * *'   # 04h00 UTC — 3ème tentative
+    - cron: '0 6 * * *'   # 06h00 UTC — 4ème tentative (filet de sécurité)
   workflow_dispatch:
 jobs:
   scrape:
