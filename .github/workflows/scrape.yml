@@ -1,39 +1,22 @@
-# ──────────────────────────────────────────────────────────────────────
-# .github/workflows/scrape.yml
-#
-# Ce workflow GitHub Actions :
-#    1. S'exécute automatiquement chaque jour à 5h UTC (= 6h Ouagadougou)
-#    2. Peut aussi être lancé manuellement depuis l'onglet "Actions" de GitHub
-#    3. Lance scraper.py pour récupérer les pharmacies de garde
-#    4. Sauvegarde du résultat dans pharmacies_garde_ouaga.json
-#    5. Pousse le fichier mis à jour sur GitHub
-# ──────────────────────────────────────────────────────────────────────
 name: Grattoir Pharmacies de Garde Ouaga
 on:
   schedule:
-    # Chaque jour à 5h UTC = environ 6h heure de Ouagadougou
-    - cron: '0 5 * * *'
-  # Permet de lancer manuellement depuis GitHub → onglet Actions → bouton "Run workflow"
+    - cron: '5 0 * * *'
   workflow_dispatch:
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      # Étape 1 : Récupérer le code du dépôt
       - name: Récupérer le code
         uses: actions/checkout@v4
-      # Étape 2 : Installer Python 3.11
       - name: Installateur Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      # Étape 3 : Installer les bibliothèques Python nécessaires
       - name: Installer les dépendances
         run: pip install requests beautifulsoup4 lxml
-      # Étape 4 : Lancer le scraper
       - name: Lancer le scraper
         run: python scraper.py
-      # Étape 5 : Afficher le contenu du fichier généré (pour vérification)
       - name: Vérifier le fichier généré
         run: |
           echo "=== Contenu de pharmacies_garde_ouaga.json ==="
@@ -41,13 +24,11 @@ jobs:
           echo ""
           echo "=== Nombre de pharmacies ==="
           python3 -c "import json; data=json.load(open('pharmacies_garde_ouaga.json')); print(f'{len(data)} pharmacie(s) trouvée(s)')"
-      # Étape 6 : Sauvegarder et pousser le fichier sur GitHub
       - name: Sauvegarder sur GitHub
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add pharmacies_garde_ouaga.json
-          # Ne faire un commit que si le fichier a changé
           if git diff --staged --quiet; then
             echo "Aucun changement détecté dans le fichier. Pas de commit."
           else
