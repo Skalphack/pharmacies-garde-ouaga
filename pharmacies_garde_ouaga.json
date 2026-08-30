@@ -70,6 +70,16 @@
     "date": "2026-08-30"
   },
   {
+    "nom": "pharmacie la Famille",
+    "adresse": "Ouagadougou, Quartier Pissy, Sect. 12 Arrdt 3, à 500m de Chic Hotel",
+    "telephone": "25430685",
+    "lat": 12.3461,
+    "lng": -1.58294,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-la-famille-124",
+    "date": "2026-08-30"
+  },
+  {
     "nom": "pharmacie de la Jeunesse",
     "adresse": "Ouagadougou, Hamdalaye, rue 10.61",
     "telephone": "25343504",
@@ -90,13 +100,13 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "pharmacie la Famille",
-    "adresse": "Ouagadougou, Quartier Pissy, Sect. 12 Arrdt 3, à 500m de Chic Hotel",
-    "telephone": "25430685",
-    "lat": 12.3461,
-    "lng": -1.58294,
+    "nom": "Pharmacie Wend-Denda",
+    "adresse": "Ouagadougou, Sect. 9, quartier Ouidi, Avenue Yatenga, entre la station Total de Larlé et ECOBANK Ouidi",
+    "telephone": null,
+    "lat": 12.377,
+    "lng": -1.54407,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-la-famille-124",
+    "fiche_url": "../pharmacie-wend-denda-191",
     "date": "2026-08-30"
   },
   {
@@ -107,16 +117,6 @@
     "lng": -1.50429,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-hamamickely-146",
-    "date": "2026-08-30"
-  },
-  {
-    "nom": "Pharmacie Wend-Denda",
-    "adresse": "Ouagadougou, Sect. 9, quartier Ouidi, Avenue Yatenga, entre la station Total de Larlé et ECOBANK Ouidi",
-    "telephone": null,
-    "lat": 12.377,
-    "lng": -1.54407,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-wend-denda-191",
     "date": "2026-08-30"
   },
   {
@@ -150,16 +150,6 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "pharmacie Naaba Koom",
-    "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
-    "telephone": "25483334",
-    "lat": 12.3992,
-    "lng": -1.50343,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-naaba-koom-251",
-    "date": "2026-08-30"
-  },
-  {
     "nom": "pharmacie Kamin",
     "adresse": "Ouagadougou, Sect. 06 Gounghin, côté Est du marché de Goughin",
     "telephone": "25343028",
@@ -177,6 +167,26 @@
     "lng": -1.56397,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--pissy-260",
+    "date": "2026-08-30"
+  },
+  {
+    "nom": "pharmacie Naaba Koom",
+    "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
+    "telephone": "25483334",
+    "lat": 12.3992,
+    "lng": -1.50343,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-naaba-koom-251",
+    "date": "2026-08-30"
+  },
+  {
+    "nom": "Pharmacie  Sacré Coeur",
+    "adresse": "Ouagadougou, Avenue Simon Compaoré, à 500m du lycée Miste de Gounghin, en partant vers Watam Kaiser",
+    "telephone": "25346060",
+    "lat": 12.3511,
+    "lng": -1.54624,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--sacre-coeur-219",
     "date": "2026-08-30"
   },
   {
@@ -200,16 +210,6 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "Pharmacie  Sacré Coeur",
-    "adresse": "Ouagadougou, Avenue Simon Compaoré, à 500m du lycée Miste de Gounghin, en partant vers Watam Kaiser",
-    "telephone": "25346060",
-    "lat": 12.3511,
-    "lng": -1.54624,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--sacre-coeur-219",
-    "date": "2026-08-30"
-  },
-  {
     "nom": "Pharmacie de la Poste",
     "adresse": "Ouagadougou, Koulouba",
     "telephone": "25318424",
@@ -230,16 +230,6 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "pharmacie Concorde",
-    "adresse": "Ouagadougou, Av. Kwame N'Krumah non loin de Zabre Daaga",
-    "telephone": "25312949",
-    "lat": 12.3658,
-    "lng": -1.5188,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-concorde-92",
-    "date": "2026-08-30"
-  },
-  {
     "nom": "pharmacie Naab-Raga",
     "adresse": "Ouagadougou, Samandin, Avenue Oumarou KANAZOE à 100m du marché de Naab Raage",
     "telephone": "70143977",
@@ -247,6 +237,16 @@
     "lng": -1.53168,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-naab-raga-250",
+    "date": "2026-08-30"
+  },
+  {
+    "nom": "pharmacie Concorde",
+    "adresse": "Ouagadougou, Av. Kwame N'Krumah non loin de Zabre Daaga",
+    "telephone": "25312949",
+    "lat": 12.3658,
+    "lng": -1.5188,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-concorde-92",
     "date": "2026-08-30"
   },
   {
@@ -290,16 +290,6 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "Pharmacie Ninrwa",
-    "adresse": "Ouagadougou, Toute Benogo - Kossodo( Av Colonel A. Michel OUEDRAOGO) Bogodogo à 400m du marché",
-    "telephone": "25418038",
-    "lat": 12.4052,
-    "lng": -1.45669,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-ninrwa-267",
-    "date": "2026-08-30"
-  },
-  {
     "nom": "pharmacie Belle Ville à Ouaga",
     "adresse": "Ouagadougou, Route de Komsilga/ BRAFASO/ 75e Anniversaire AD",
     "telephone": "25408414",
@@ -330,6 +320,26 @@
     "date": "2026-08-30"
   },
   {
+    "nom": "Pharmacie Ninrwa",
+    "adresse": "Ouagadougou, Toute Benogo - Kossodo( Av Colonel A. Michel OUEDRAOGO) Bogodogo à 400m du marché",
+    "telephone": "25418038",
+    "lat": 12.4052,
+    "lng": -1.45669,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-ninrwa-267",
+    "date": "2026-08-30"
+  },
+  {
+    "nom": "Pharmacie Noom-Wendé",
+    "adresse": "Ouagadougou, Rue Liwaga, après le lycée UNIVERSALIS en allant à Pissy",
+    "telephone": "25503117",
+    "lat": 12.319,
+    "lng": -1.53793,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-noom-wende-265",
+    "date": "2026-08-30"
+  },
+  {
     "nom": "Pharmacie  Ste trinité",
     "adresse": "Ouagadougou, Wemtenga, rue 29.13",
     "telephone": "25412646",
@@ -347,16 +357,6 @@
     "lng": -1.469,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--taoko-202",
-    "date": "2026-08-30"
-  },
-  {
-    "nom": "Pharmacie Noom-Wendé",
-    "adresse": "Ouagadougou, Rue Liwaga, après le lycée UNIVERSALIS en allant à Pissy",
-    "telephone": "25503117",
-    "lat": 12.319,
-    "lng": -1.53793,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-noom-wende-265",
     "date": "2026-08-30"
   },
   {
@@ -380,13 +380,13 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "pharmacie Hosanna",
-    "adresse": "Ouagadougou, Route de Fada en face du lycée Naba Yemdé",
-    "telephone": "25412648",
-    "lat": 12.4028,
-    "lng": -1.438,
+    "nom": "Pharmacie  Yennenga",
+    "adresse": "Ouagadougou, Blvd Tansoba face à la mairie de BOGODOGO",
+    "telephone": "25370337",
+    "lat": 12.3513,
+    "lng": -1.48818,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-hosanna-156",
+    "fiche_url": "../pharmacie--yennenga-188",
     "date": "2026-08-30"
   },
   {
@@ -400,13 +400,13 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "Pharmacie  Yennenga",
-    "adresse": "Ouagadougou, Blvd Tansoba face à la mairie de BOGODOGO",
-    "telephone": "25370337",
-    "lat": 12.3513,
-    "lng": -1.48818,
+    "nom": "pharmacie Hosanna",
+    "adresse": "Ouagadougou, Route de Fada en face du lycée Naba Yemdé",
+    "telephone": "25412648",
+    "lat": 12.4028,
+    "lng": -1.438,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie--yennenga-188",
+    "fiche_url": "../pharmacie-hosanna-156",
     "date": "2026-08-30"
   },
   {
@@ -430,16 +430,6 @@
     "date": "2026-08-30"
   },
   {
-    "nom": "Pharmacie Aïmèvo",
-    "adresse": "Ouagadougou, En Face de la Mairie de Karpala(Arrdt. 11) env. 20m après le Chateau de l'ONEA",
-    "telephone": "25393699",
-    "lat": 12.3394,
-    "lng": -1.4795,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-aimevo-370",
-    "date": "2026-08-30"
-  },
-  {
     "nom": "pharmacie Nagrin",
     "adresse": "Ouagadougou, Route de Saponé avant l'hôpital Balise Compaoré",
     "telephone": "25469048",
@@ -447,6 +437,16 @@
     "lng": -1.52982,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-nagrin-252",
+    "date": "2026-08-30"
+  },
+  {
+    "nom": "Pharmacie Aïmèvo",
+    "adresse": "Ouagadougou, En Face de la Mairie de Karpala(Arrdt. 11) env. 20m après le Chateau de l'ONEA",
+    "telephone": "25393699",
+    "lat": 12.3394,
+    "lng": -1.4795,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-aimevo-370",
     "date": "2026-08-30"
   },
   {
