@@ -20,16 +20,6 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "Pharmacie St Michel",
-    "adresse": "Ouagadougou, Rimkièta non loin de la pharmacie Barkwendé",
-    "telephone": "25454808",
-    "lat": 12.3752,
-    "lng": -1.5975,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-st-michel-205",
-    "date": "2026-09-01"
-  },
-  {
     "nom": "Pharmacie Kamboinsin",
     "adresse": "Ouagadougou, Face du Centre Emetteur de KAMBOINSIN",
     "telephone": "62574949",
@@ -37,6 +27,16 @@
     "lng": -1.54942,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-kamboinsin-366",
+    "date": "2026-09-01"
+  },
+  {
+    "nom": "Pharmacie St Michel",
+    "adresse": "Ouagadougou, Rimkièta non loin de la pharmacie Barkwendé",
+    "telephone": "25454808",
+    "lat": 12.3752,
+    "lng": -1.5975,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-st-michel-205",
     "date": "2026-09-01"
   },
   {
@@ -110,16 +110,6 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Arzouma",
-    "adresse": "Ouagadougou, Pissy, à 100m de la clinique du Plateau, non loin de la salle de ciné de Pissy",
-    "telephone": "25480153",
-    "lat": 12.3319,
-    "lng": -1.57458,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-arzouma-59",
-    "date": "2026-09-01"
-  },
-  {
     "nom": "pharmacie Baraka",
     "adresse": "Ouagadougou, Côté Est de la Cours du Ouidi Naaba",
     "telephone": null,
@@ -127,16 +117,6 @@
     "lng": -1.5398,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-baraka-66",
-    "date": "2026-09-01"
-  },
-  {
-    "nom": "Pharmacie  Pissy",
-    "adresse": "Ouagadougou, Côté Est CMA de Pissy",
-    "telephone": "25431335",
-    "lat": 12.3368,
-    "lng": -1.56397,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--pissy-260",
     "date": "2026-09-01"
   },
   {
@@ -160,6 +140,16 @@
     "date": "2026-09-01"
   },
   {
+    "nom": "pharmacie Arzouma",
+    "adresse": "Ouagadougou, Pissy, à 100m de la clinique du Plateau, non loin de la salle de ciné de Pissy",
+    "telephone": "25480153",
+    "lat": 12.3319,
+    "lng": -1.57458,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-arzouma-59",
+    "date": "2026-09-01"
+  },
+  {
     "nom": "pharmacie Kamin",
     "adresse": "Ouagadougou, Sect. 06 Gounghin, côté Est du marché de Goughin",
     "telephone": "25343028",
@@ -170,6 +160,16 @@
     "date": "2026-09-01"
   },
   {
+    "nom": "Pharmacie  Pissy",
+    "adresse": "Ouagadougou, Côté Est CMA de Pissy",
+    "telephone": "25431335",
+    "lat": 12.3368,
+    "lng": -1.56397,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--pissy-260",
+    "date": "2026-09-01"
+  },
+  {
     "nom": "Pharmacie  Sacré Coeur",
     "adresse": "Ouagadougou, Avenue Simon Compaoré, à 500m du lycée Miste de Gounghin, en partant vers Watam Kaiser",
     "telephone": "25346060",
@@ -177,6 +177,16 @@
     "lng": -1.54624,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--sacre-coeur-219",
+    "date": "2026-09-01"
+  },
+  {
+    "nom": "pharmacie Naaba Koom",
+    "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
+    "telephone": "25483334",
+    "lat": 12.3992,
+    "lng": -1.50343,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-naaba-koom-251",
     "date": "2026-09-01"
   },
   {
@@ -200,16 +210,6 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Naaba Koom",
-    "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
-    "telephone": "25483334",
-    "lat": 12.3992,
-    "lng": -1.50343,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-naaba-koom-251",
-    "date": "2026-09-01"
-  },
-  {
     "nom": "Pharmacie de la Poste",
     "adresse": "Ouagadougou, Koulouba",
     "telephone": "25318424",
@@ -220,16 +220,6 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Naab-Raga",
-    "adresse": "Ouagadougou, Samandin, Avenue Oumarou KANAZOE à 100m du marché de Naab Raage",
-    "telephone": "70143977",
-    "lat": 12.3525,
-    "lng": -1.53168,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-naab-raga-250",
-    "date": "2026-09-01"
-  },
-  {
     "nom": "Pharmacie Indépendance",
     "adresse": "Ouagadougou, 370 Avenue Eli SARE, à 500 mètres de EAU Sahel Ouaga 2000",
     "telephone": "25376871",
@@ -237,6 +227,16 @@
     "lng": -1.51602,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-independance-368",
+    "date": "2026-09-01"
+  },
+  {
+    "nom": "pharmacie Naab-Raga",
+    "adresse": "Ouagadougou, Samandin, Avenue Oumarou KANAZOE à 100m du marché de Naab Raage",
+    "telephone": "70143977",
+    "lat": 12.3525,
+    "lng": -1.53168,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-naab-raga-250",
     "date": "2026-09-01"
   },
   {
@@ -260,26 +260,6 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Belle Ville à Ouaga",
-    "adresse": "Ouagadougou, Route de Komsilga/ BRAFASO/ 75e Anniversaire AD",
-    "telephone": "25408414",
-    "lat": 12.3075,
-    "lng": -1.55768,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-belle-ville-a-ouaga-70",
-    "date": "2026-09-01"
-  },
-  {
-    "nom": "Pharmacie  Santé-vitalité",
-    "adresse": "Ouagadougou, Rue WARABA, 500m après la cité de l'ASECNA en quittant le boulevard France-Afrique",
-    "telephone": "25409413",
-    "lat": 12.3263,
-    "lng": -1.53627,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--sante-vitalite-217",
-    "date": "2026-09-01"
-  },
-  {
     "nom": "Pharmacie Téranga",
     "adresse": "Ouagadougou, Zogona, 13 avenue Babanguida",
     "telephone": "25360970",
@@ -290,33 +270,13 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "Pharmacie Noom-Wendé",
-    "adresse": "Ouagadougou, Rue Liwaga, après le lycée UNIVERSALIS en allant à Pissy",
-    "telephone": "25503117",
-    "lat": 12.319,
-    "lng": -1.53793,
+    "nom": "pharmacie Belle Ville à Ouaga",
+    "adresse": "Ouagadougou, Route de Komsilga/ BRAFASO/ 75e Anniversaire AD",
+    "telephone": "25408414",
+    "lat": 12.3075,
+    "lng": -1.55768,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-noom-wende-265",
-    "date": "2026-09-01"
-  },
-  {
-    "nom": "Pharmacie St Julien",
-    "adresse": "Ouagadougou, A 100m du rond-point de la Patte-d'oie, sur l'avenue Bassawarga",
-    "telephone": "25380610",
-    "lat": 12.3347,
-    "lng": -1.52616,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-st-julien-207",
-    "date": "2026-09-01"
-  },
-  {
-    "nom": "Pharmacie  St Lazare",
-    "adresse": "Ouagadougou, 1200 Logements, rue 14.54",
-    "telephone": "25368648",
-    "lat": 12.3686,
-    "lng": -1.49978,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--st-lazare-206",
+    "fiche_url": "../pharmacie-belle-ville-a-ouaga-70",
     "date": "2026-09-01"
   },
   {
@@ -330,33 +290,43 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Coura",
-    "adresse": "Ouagadougou, 200m Côté oueste du rond-point des Droits Humains",
-    "telephone": "25388390",
-    "lat": 12.3273,
-    "lng": -1.51927,
+    "nom": "Pharmacie  St Lazare",
+    "adresse": "Ouagadougou, 1200 Logements, rue 14.54",
+    "telephone": "25368648",
+    "lat": 12.3686,
+    "lng": -1.49978,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-coura-93",
+    "fiche_url": "../pharmacie--st-lazare-206",
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Dunia",
-    "adresse": "Ouagadougou, 1200 Logements, Avenue des Arts/ Face au rond-point des Artiste ex sect. 14",
-    "telephone": "25362051",
-    "lat": 12.3593,
-    "lng": -1.49523,
+    "nom": "Pharmacie  Santé-vitalité",
+    "adresse": "Ouagadougou, Rue WARABA, 500m après la cité de l'ASECNA en quittant le boulevard France-Afrique",
+    "telephone": "25409413",
+    "lat": 12.3263,
+    "lng": -1.53627,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-dunia-115",
+    "fiche_url": "../pharmacie--sante-vitalite-217",
     "date": "2026-09-01"
   },
   {
-    "nom": "Pharmacie  Ste trinité",
-    "adresse": "Ouagadougou, Wemtenga, rue 29.13",
-    "telephone": "25412646",
-    "lat": 12.3685,
-    "lng": -1.48846,
+    "nom": "Pharmacie St Julien",
+    "adresse": "Ouagadougou, A 100m du rond-point de la Patte-d'oie, sur l'avenue Bassawarga",
+    "telephone": "25380610",
+    "lat": 12.3347,
+    "lng": -1.52616,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie--ste-trinite-204",
+    "fiche_url": "../pharmacie-st-julien-207",
+    "date": "2026-09-01"
+  },
+  {
+    "nom": "Pharmacie Noom-Wendé",
+    "adresse": "Ouagadougou, Rue Liwaga, après le lycée UNIVERSALIS en allant à Pissy",
+    "telephone": "25503117",
+    "lat": 12.319,
+    "lng": -1.53793,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-noom-wende-265",
     "date": "2026-09-01"
   },
   {
@@ -370,6 +340,26 @@
     "date": "2026-09-01"
   },
   {
+    "nom": "Pharmacie  Ste trinité",
+    "adresse": "Ouagadougou, Wemtenga, rue 29.13",
+    "telephone": "25412646",
+    "lat": 12.3685,
+    "lng": -1.48846,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--ste-trinite-204",
+    "date": "2026-09-01"
+  },
+  {
+    "nom": "pharmacie Dunia",
+    "adresse": "Ouagadougou, 1200 Logements, Avenue des Arts/ Face au rond-point des Artiste ex sect. 14",
+    "telephone": "25362051",
+    "lat": 12.3593,
+    "lng": -1.49523,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-dunia-115",
+    "date": "2026-09-01"
+  },
+  {
     "nom": "Pharmacie  Taoko",
     "adresse": "Ouagadougou, Blvd Tansoba, à 500m de l'échangeur de l'Est",
     "telephone": "25366927",
@@ -377,6 +367,16 @@
     "lng": -1.469,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--taoko-202",
+    "date": "2026-09-01"
+  },
+  {
+    "nom": "pharmacie Coura",
+    "adresse": "Ouagadougou, 200m Côté oueste du rond-point des Droits Humains",
+    "telephone": "25388390",
+    "lat": 12.3273,
+    "lng": -1.51927,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-coura-93",
     "date": "2026-09-01"
   },
   {
@@ -390,13 +390,13 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Nagrin",
-    "adresse": "Ouagadougou, Route de Saponé avant l'hôpital Balise Compaoré",
-    "telephone": "25469048",
-    "lat": 12.2898,
-    "lng": -1.52982,
+    "nom": "Pharmacie Nazani",
+    "adresse": "Ouagadougou, Dassasgo",
+    "telephone": "25366510",
+    "lat": 12.3777,
+    "lng": -1.46235,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-nagrin-252",
+    "fiche_url": "../pharmacie-nazani-369",
     "date": "2026-09-01"
   },
   {
@@ -410,13 +410,13 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "Pharmacie Nazani",
-    "adresse": "Ouagadougou, Dassasgo",
-    "telephone": "25366510",
-    "lat": 12.3777,
-    "lng": -1.46235,
+    "nom": "pharmacie Hosanna",
+    "adresse": "Ouagadougou, Route de Fada en face du lycée Naba Yemdé",
+    "telephone": "25412648",
+    "lat": 12.4028,
+    "lng": -1.438,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-nazani-369",
+    "fiche_url": "../pharmacie-hosanna-156",
     "date": "2026-09-01"
   },
   {
@@ -430,13 +430,13 @@
     "date": "2026-09-01"
   },
   {
-    "nom": "pharmacie Hosanna",
-    "adresse": "Ouagadougou, Route de Fada en face du lycée Naba Yemdé",
-    "telephone": "25412648",
-    "lat": 12.4028,
-    "lng": -1.438,
+    "nom": "pharmacie Nagrin",
+    "adresse": "Ouagadougou, Route de Saponé avant l'hôpital Balise Compaoré",
+    "telephone": "25469048",
+    "lat": 12.2898,
+    "lng": -1.52982,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-hosanna-156",
+    "fiche_url": "../pharmacie-nagrin-252",
     "date": "2026-09-01"
   },
   {
