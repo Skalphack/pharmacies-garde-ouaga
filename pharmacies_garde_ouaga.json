@@ -60,16 +60,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "pharmacie Angèle",
-    "adresse": "Ouagadougou, Tampouy coté Sud du Centre Médical Paul VI, face au monument des Martyrs.",
-    "telephone": "25350717",
-    "lat": 12.3899,
-    "lng": -1.56288,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-angele-46",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "Pharmacie Hamid",
     "adresse": "Ouagadougou, Route Nationale N°1 (RN1) e face de la SONAPOST de Zagtouly",
     "telephone": "79613172",
@@ -77,6 +67,16 @@
     "lng": -1.62738,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-hamid-374",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "pharmacie Angèle",
+    "adresse": "Ouagadougou, Tampouy coté Sud du Centre Médical Paul VI, face au monument des Martyrs.",
+    "telephone": "25350717",
+    "lat": 12.3899,
+    "lng": -1.56288,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-angele-46",
     "date": "2026-09-09"
   },
   {
@@ -100,16 +100,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "pharmacie Les Grâces",
-    "adresse": "Ouagadougou, Av. de la Concorde Nationale, secteur 17 Tanghin",
-    "telephone": "60808077",
-    "lat": 12.4095,
-    "lng": -1.51375,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-graces-136",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "Pharmacie Sira",
     "adresse": "Ouagadougou, Route de Bobo, 100m de la Mairie de Boulmiougou",
     "telephone": "25431778",
@@ -117,6 +107,16 @@
     "lng": -1.58084,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-sira-214",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "pharmacie Les Grâces",
+    "adresse": "Ouagadougou, Av. de la Concorde Nationale, secteur 17 Tanghin",
+    "telephone": "60808077",
+    "lat": 12.4095,
+    "lng": -1.51375,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-graces-136",
     "date": "2026-09-09"
   },
   {
@@ -140,16 +140,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "Pharmacie Louis Pasteur",
-    "adresse": "Ouagadougou, Av. Dapoya à 400m de l'église Catholique",
-    "telephone": "25335867",
-    "lat": 12.3809,
-    "lng": -1.52798,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-louis-pasteur-257",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "Pharmacie  Unité",
     "adresse": "Ouagadougou, Gounghin, Près de l'échangeur de l'ouest face au Jardn de la Challenge",
     "telephone": "25343942",
@@ -160,13 +150,13 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "pharmacie La Croix",
-    "adresse": "Ouagadougou, Gounghin, Près de l'échangeur de l'ouest face au Jardin le Challege",
-    "telephone": "25341264",
-    "lat": 12.3617,
-    "lng": -1.5436,
+    "nom": "Pharmacie Louis Pasteur",
+    "adresse": "Ouagadougou, Av. Dapoya à 400m de l'église Catholique",
+    "telephone": "25335867",
+    "lat": 12.3809,
+    "lng": -1.52798,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-la-croix-236",
+    "fiche_url": "../pharmacie-louis-pasteur-257",
     "date": "2026-09-09"
   },
   {
@@ -180,6 +170,16 @@
     "date": "2026-09-09"
   },
   {
+    "nom": "pharmacie La Croix",
+    "adresse": "Ouagadougou, Gounghin, Près de l'échangeur de l'ouest face au Jardin le Challege",
+    "telephone": "25341264",
+    "lat": 12.3617,
+    "lng": -1.5436,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-la-croix-236",
+    "date": "2026-09-09"
+  },
+  {
     "nom": "pharmacie Bethania",
     "adresse": "Ouagadougou, Av. Oumarou KANAZOE coté Est CBC",
     "telephone": "25313141",
@@ -190,16 +190,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "Pharmacie Somgandé",
-    "adresse": "Ouagadougou, Cité SOCOGIB Somgandé à 200m de la Boulangerie Wend Konta",
-    "telephone": "25358244",
-    "lat": 12.4062,
-    "lng": -1.48956,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-somgande-213",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "pharmacie de la Gare",
     "adresse": "Ouagadougou, 103 rue des Douanes coté Nord UBA Siège",
     "telephone": "25316206",
@@ -207,6 +197,16 @@
     "lng": -1.52159,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-de-la-gare-133",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "Pharmacie Somgandé",
+    "adresse": "Ouagadougou, Cité SOCOGIB Somgandé à 200m de la Boulangerie Wend Konta",
+    "telephone": "25358244",
+    "lat": 12.4062,
+    "lng": -1.48956,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-somgande-213",
     "date": "2026-09-09"
   },
   {
@@ -240,36 +240,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "Pharmacie El Shaddai",
-    "adresse": "Ouagadougou, Benogo à 100 mètres du Pont Ana na yélé",
-    "telephone": "25410002",
-    "lat": 12.4146,
-    "lng": -1.46316,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-el-shaddai-372",
-    "date": "2026-09-09"
-  },
-  {
-    "nom": "Pharmacie Wayalghin",
-    "adresse": "Ouagadougou, En Face du mur du camps CRS, vers ANTBA(en venant de la MACO à gauche après l'ENAREF)",
-    "telephone": "25395208",
-    "lat": 12.398,
-    "lng": -1.47869,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-wayalghin-377",
-    "date": "2026-09-09"
-  },
-  {
-    "nom": "pharmacie du Kadiogo",
-    "adresse": "Ouagadougou, 1207, Avenue Kwamé N'Krumah, immeuble CNSS; Face à Coris Bank siège",
-    "telephone": "25318788",
-    "lat": 12.3603,
-    "lng": -1.51737,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-du-kadiogo-166",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "Pharmacie Vidal Bafa",
     "adresse": "Ouagadougou, Avenue Oumarou Kanazoé, Sect 7, Près de l'école de l'Onatel",
     "telephone": "25315288",
@@ -277,16 +247,6 @@
     "lng": -1.53212,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-vidal-196",
-    "date": "2026-09-09"
-  },
-  {
-    "nom": "Pharmacie Maignon",
-    "adresse": "Ouagadougou, Av. Bassawarga Kamsonghin face au CM de Samandin",
-    "telephone": "78836136",
-    "lat": 12.3503,
-    "lng": -1.52655,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-maignon-255",
     "date": "2026-09-09"
   },
   {
@@ -300,6 +260,36 @@
     "date": "2026-09-09"
   },
   {
+    "nom": "Pharmacie Maignon",
+    "adresse": "Ouagadougou, Av. Bassawarga Kamsonghin face au CM de Samandin",
+    "telephone": "78836136",
+    "lat": 12.3503,
+    "lng": -1.52655,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-maignon-255",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "pharmacie du Kadiogo",
+    "adresse": "Ouagadougou, 1207, Avenue Kwamé N'Krumah, immeuble CNSS; Face à Coris Bank siège",
+    "telephone": "25318788",
+    "lat": 12.3603,
+    "lng": -1.51737,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-du-kadiogo-166",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "Pharmacie Wayalghin",
+    "adresse": "Ouagadougou, En Face du mur du camps CRS, vers ANTBA(en venant de la MACO à gauche après l'ENAREF)",
+    "telephone": "25395208",
+    "lat": 12.398,
+    "lng": -1.47869,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-wayalghin-377",
+    "date": "2026-09-09"
+  },
+  {
     "nom": "pharmacie Amitié Miyougou",
     "adresse": "Ouagadougou, Boulevard de la circulation, sect 25 Cissin à 200m du marché de Paagla yiri",
     "telephone": "25385236",
@@ -307,6 +297,16 @@
     "lng": -1.53524,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-amitie-53",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "Pharmacie El Shaddai",
+    "adresse": "Ouagadougou, Benogo à 100 mètres du Pont Ana na yélé",
+    "telephone": "25410002",
+    "lat": 12.4146,
+    "lng": -1.46316,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-el-shaddai-372",
     "date": "2026-09-09"
   },
   {
@@ -340,26 +340,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "pharmacie Miséricorde",
-    "adresse": "Ouagadougou, Dassasgho, coté Nord de l'Eglise de Karambiri à 300 mètres",
-    "telephone": "25652264",
-    "lat": 12.3867,
-    "lng": -1.4634,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-misericorde-246",
-    "date": "2026-09-09"
-  },
-  {
-    "nom": "pharmacie Musée",
-    "adresse": "Ouagadougou, Blvd Tansoba côté Est du Mur du Musée National",
-    "telephone": "25366841",
-    "lat": 12.3797,
-    "lng": -1.46923,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-musee-249",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "pharmacie Circulaire Sèdè",
     "adresse": "Ouagadougou, ex Sect 15, face à la Station TOTAL Ouaga-inter",
     "telephone": "25476127",
@@ -370,23 +350,13 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "Pharmacie Pierre Tapsoba",
-    "adresse": "Ouagadougou, Saaba à 100m de la Station OTAM",
-    "telephone": "25508148",
-    "lat": 12.3975,
-    "lng": -1.44338,
+    "nom": "pharmacie Miséricorde",
+    "adresse": "Ouagadougou, Dassasgho, coté Nord de l'Eglise de Karambiri à 300 mètres",
+    "telephone": "25652264",
+    "lat": 12.3867,
+    "lng": -1.4634,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-pierre-tapsoba-261",
-    "date": "2026-09-09"
-  },
-  {
-    "nom": "pharmacie Natilgé",
-    "adresse": "Ouagadougou, Blvd Tansoaba Waonre, en face du feu tricolore de l'IDS",
-    "telephone": "25372800",
-    "lat": 12.3585,
-    "lng": -1.48337,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-natilge-253",
+    "fiche_url": "../pharmacie-misericorde-246",
     "date": "2026-09-09"
   },
   {
@@ -400,6 +370,26 @@
     "date": "2026-09-09"
   },
   {
+    "nom": "pharmacie Musée",
+    "adresse": "Ouagadougou, Blvd Tansoba côté Est du Mur du Musée National",
+    "telephone": "25366841",
+    "lat": 12.3797,
+    "lng": -1.46923,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-musee-249",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "pharmacie Natilgé",
+    "adresse": "Ouagadougou, Blvd Tansoaba Waonre, en face du feu tricolore de l'IDS",
+    "telephone": "25372800",
+    "lat": 12.3585,
+    "lng": -1.48337,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-natilge-253",
+    "date": "2026-09-09"
+  },
+  {
     "nom": "Pharmacie Le Rocher",
     "adresse": "Ouagadougou, Rue séparant Ouaga 2000 et PAtte d'oie à 1km de la Mosquée KANAZOE",
     "telephone": "25408387",
@@ -407,6 +397,16 @@
     "lng": -1.51789,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-rocher-220",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "Pharmacie Pierre Tapsoba",
+    "adresse": "Ouagadougou, Saaba à 100m de la Station OTAM",
+    "telephone": "25508148",
+    "lat": 12.3975,
+    "lng": -1.44338,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-pierre-tapsoba-261",
     "date": "2026-09-09"
   },
   {
@@ -420,16 +420,6 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "pharmacie Afiya",
-    "adresse": "Ouagadougou, Zone 1 à 300m du lycée Badenya, Face au non loti",
-    "telephone": "25488347",
-    "lat": 12.3555,
-    "lng": -1.4688,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-afiya-50",
-    "date": "2026-09-09"
-  },
-  {
     "nom": "pharmacie Choukroullah",
     "adresse": "Ouagadougou, 300m du Centre Médicale de Nagrin",
     "telephone": "25409376",
@@ -440,13 +430,13 @@
     "date": "2026-09-09"
   },
   {
-    "nom": "pharmacie Kawsar",
-    "adresse": "Ouagadougou, Karpala à 600m de la division fiscale(impôts)",
-    "telephone": "73207787",
-    "lat": 12.3429,
-    "lng": -1.46887,
+    "nom": "pharmacie Afiya",
+    "adresse": "Ouagadougou, Zone 1 à 300m du lycée Badenya, Face au non loti",
+    "telephone": "25488347",
+    "lat": 12.3555,
+    "lng": -1.4688,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-kawsar-229",
+    "fiche_url": "../pharmacie-afiya-50",
     "date": "2026-09-09"
   },
   {
@@ -457,6 +447,16 @@
     "lng": -1.5039,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--lauriersprincipale-259",
+    "date": "2026-09-09"
+  },
+  {
+    "nom": "pharmacie Kawsar",
+    "adresse": "Ouagadougou, Karpala à 600m de la division fiscale(impôts)",
+    "telephone": "73207787",
+    "lat": 12.3429,
+    "lng": -1.46887,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-kawsar-229",
     "date": "2026-09-09"
   },
   {
