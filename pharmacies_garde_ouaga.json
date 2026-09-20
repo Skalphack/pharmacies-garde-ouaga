@@ -1,15 +1,5 @@
 [
   {
-    "nom": "PHARMACIE SIG - NOGHIN",
-    "adresse": "Ouagadougou, 150m du rond point de Rimkièta, Av. Naaba Ziiwendé",
-    "telephone": "(+226)25350977",
-    "lat": 12.3902,
-    "lng": -1.59773,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sig---noghin-41",
-    "date": "2026-09-20"
-  },
-  {
     "nom": "Pharmacie  Rakismanegre",
     "adresse": "Ouagadougou, Tampouy, Non loin du Chateau d'eau, sur la voie de la nouvelle mairie de l'arrdt 9",
     "telephone": "25401134",
@@ -17,6 +7,16 @@
     "lng": -1.56879,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--rakismanegre-223",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "PHARMACIE SIG - NOGHIN",
+    "adresse": "Ouagadougou, 150m du rond point de Rimkièta, Av. Naaba Ziiwendé",
+    "telephone": "(+226)25350977",
+    "lat": 12.3902,
+    "lng": -1.59773,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sig---noghin-41",
     "date": "2026-09-20"
   },
   {
@@ -30,16 +30,6 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "Pharmacie Sainte Véronique",
-    "adresse": "Ouagadougou, Zagtouli , En face du marché de Zagtouli sur la route CIMAT",
-    "telephone": "63260404",
-    "lat": 12.3282,
-    "lng": -1.63219,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sainte-veronique-363",
-    "date": "2026-09-20"
-  },
-  {
     "nom": "pharmacie Ar-Rahma",
     "adresse": "Ouagadougou, Tampouy, Av Yatenga, face à la Caisse Populaire",
     "telephone": "25350986",
@@ -47,6 +37,16 @@
     "lng": -1.57396,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-ar-rahma-58",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "Pharmacie Sainte Véronique",
+    "adresse": "Ouagadougou, Zagtouli , En face du marché de Zagtouli sur la route CIMAT",
+    "telephone": "63260404",
+    "lat": 12.3282,
+    "lng": -1.63219,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sainte-veronique-363",
     "date": "2026-09-20"
   },
   {
@@ -80,16 +80,6 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "pharmacie Boulmiougou",
-    "adresse": "Ouagadougou, Arrdts n°6, Sect 27, 166 rue de Boassa, Pissy à 200m du Complexe Scolaire Sainte-Famille",
-    "telephone": "25431268",
-    "lat": 12.3328,
-    "lng": -1.58302,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-boulmiougou-77",
-    "date": "2026-09-20"
-  },
-  {
     "nom": "Pharmacie Schifeyi",
     "adresse": "Ouagadougou, Non loin du Blvd de la jeunesse vers le foyer des Sapeurs Pompiers du Camp Sangoulé Lamizana",
     "telephone": "25402742",
@@ -100,13 +90,13 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "Pharmacie Progrès",
-    "adresse": "Ouagadougou, Pissy, route de Bobo face à UBIPHARM",
-    "telephone": "25430162",
-    "lat": 12.3435,
-    "lng": -1.56891,
+    "nom": "pharmacie Boulmiougou",
+    "adresse": "Ouagadougou, Arrdts n°6, Sect 27, 166 rue de Boassa, Pissy à 200m du Complexe Scolaire Sainte-Famille",
+    "telephone": "25431268",
+    "lat": 12.3328,
+    "lng": -1.58302,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-progres-175",
+    "fiche_url": "../pharmacie-boulmiougou-77",
     "date": "2026-09-20"
   },
   {
@@ -120,13 +110,13 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "Pharmacie Sigri",
-    "adresse": "Ouagadougou, Av. du Conseil de l'Entente Gounghin, non loin de la Station Total et Marina Market",
-    "telephone": "25346422",
-    "lat": 12.3584,
-    "lng": -1.54894,
+    "nom": "Pharmacie Progrès",
+    "adresse": "Ouagadougou, Pissy, route de Bobo face à UBIPHARM",
+    "telephone": "25430162",
+    "lat": 12.3435,
+    "lng": -1.56891,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-sigri-169",
+    "fiche_url": "../pharmacie-progres-175",
     "date": "2026-09-20"
   },
   {
@@ -147,6 +137,16 @@
     "lng": -1.49599,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--neima-177",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "Pharmacie Sigri",
+    "adresse": "Ouagadougou, Av. du Conseil de l'Entente Gounghin, non loin de la Station Total et Marina Market",
+    "telephone": "25346422",
+    "lat": 12.3584,
+    "lng": -1.54894,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sigri-169",
     "date": "2026-09-20"
   },
   {
@@ -180,16 +180,6 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "pharmacie Cathédrale",
-    "adresse": "Ouagadougou, 38 Av de la cathédrale , Côté Ouest de la cathédrale, face à la station TOTAL",
-    "telephone": null,
-    "lat": 12.3632,
-    "lng": -1.52846,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-cathedrale-81",
-    "date": "2026-09-20"
-  },
-  {
     "nom": "Pharmacie Agoro Rood-Woko",
     "adresse": "Ouagadougou, Marché Rood Wooko face à DIACFA Librairie",
     "telephone": "25308890",
@@ -200,53 +190,13 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "pharmacie Heera",
-    "adresse": "Ouagadougou, Av. MOGHO NAABA non loin de l'église Jean XXIII",
-    "telephone": "25316610",
-    "lat": 12.3556,
-    "lng": -1.53412,
+    "nom": "pharmacie Cathédrale",
+    "adresse": "Ouagadougou, 38 Av de la cathédrale , Côté Ouest de la cathédrale, face à la station TOTAL",
+    "telephone": null,
+    "lat": 12.3632,
+    "lng": -1.52846,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-heera-150",
-    "date": "2026-09-20"
-  },
-  {
-    "nom": "Pharmacie: Yobi",
-    "adresse": "Ouagadougou, Paspanga, A 200m de la Gendarmerie",
-    "telephone": "25311630",
-    "lat": 12.378,
-    "lng": -1.51179,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-yobi-138",
-    "date": "2026-09-20"
-  },
-  {
-    "nom": "Pharmacie Wati",
-    "adresse": "Ouagadougou, Cissin à 200m de l'Ecole de Santé St Edvige",
-    "telephone": "25385292",
-    "lat": 12.3445,
-    "lng": -1.54035,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-wati-139",
-    "date": "2026-09-20"
-  },
-  {
-    "nom": "Pharmacie Sangoulé Lamizana",
-    "adresse": "Ouagadougou, Av. Yennega à côté de Marina Market centre Ville",
-    "telephone": "25411300",
-    "lat": 12.3652,
-    "lng": -1.521,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sangoule-lamizana-173",
-    "date": "2026-09-20"
-  },
-  {
-    "nom": "Pharmacie  Martin",
-    "adresse": "Ouagadougou, Av. de la Dignité, non loin de la radio SAVANE FM",
-    "telephone": "25508459",
-    "lat": 12.3282,
-    "lng": -1.55117,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--martin-181",
+    "fiche_url": "../pharmacie-cathedrale-81",
     "date": "2026-09-20"
   },
   {
@@ -260,6 +210,56 @@
     "date": "2026-09-20"
   },
   {
+    "nom": "Pharmacie: Yobi",
+    "adresse": "Ouagadougou, Paspanga, A 200m de la Gendarmerie",
+    "telephone": "25311630",
+    "lat": 12.378,
+    "lng": -1.51179,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-yobi-138",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "pharmacie Heera",
+    "adresse": "Ouagadougou, Av. MOGHO NAABA non loin de l'église Jean XXIII",
+    "telephone": "25316610",
+    "lat": 12.3556,
+    "lng": -1.53412,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-heera-150",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "Pharmacie Sangoulé Lamizana",
+    "adresse": "Ouagadougou, Av. Yennega à côté de Marina Market centre Ville",
+    "telephone": "25411300",
+    "lat": 12.3652,
+    "lng": -1.521,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sangoule-lamizana-173",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "Pharmacie Wati",
+    "adresse": "Ouagadougou, Cissin à 200m de l'Ecole de Santé St Edvige",
+    "telephone": "25385292",
+    "lat": 12.3445,
+    "lng": -1.54035,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-wati-139",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "Pharmacie  Martin",
+    "adresse": "Ouagadougou, Av. de la Dignité, non loin de la radio SAVANE FM",
+    "telephone": "25508459",
+    "lat": 12.3282,
+    "lng": -1.55117,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--martin-181",
+    "date": "2026-09-20"
+  },
+  {
     "nom": "Pharmacie Koulouba",
     "adresse": "Ouagadougou, Koulouba à 200m côté Ouest du marché de Boins-Yaaré",
     "telephone": "25311918",
@@ -270,16 +270,6 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "pharmacie de l'Aéroport",
-    "adresse": "Ouagadougou, Face à l'ASECNA à 500m de l'Aéroport International de Ouagadougou",
-    "telephone": "25314222",
-    "lat": 12.3507,
-    "lng": -1.52069,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-de-laeroport-48",
-    "date": "2026-09-20"
-  },
-  {
     "nom": "pharmacie Delwindé",
     "adresse": "Ouagadougou, Kossodo, Sect 42 de l'Arrdt 10, à 700m de l'échangeur de l'EST, RN3",
     "telephone": "25367280",
@@ -287,6 +277,16 @@
     "lng": -1.47209,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-delwinde-97",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "pharmacie de l'Aéroport",
+    "adresse": "Ouagadougou, Face à l'ASECNA à 500m de l'Aéroport International de Ouagadougou",
+    "telephone": "25314222",
+    "lat": 12.3507,
+    "lng": -1.52069,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-de-laeroport-48",
     "date": "2026-09-20"
   },
   {
@@ -320,6 +320,26 @@
     "date": "2026-09-20"
   },
   {
+    "nom": "pharmacie Jabnéel",
+    "adresse": "Ouagadougou, Bendego, Route Coté Sud SONABEL à 700m",
+    "telephone": "25447870",
+    "lat": 12.3892,
+    "lng": -1.45791,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-jabneel-158",
+    "date": "2026-09-20"
+  },
+  {
+    "nom": "Pharmacie Jourdain",
+    "adresse": "Ouagadougou, Blvd Tansoba, 100m de l'hôpital Pédiatrique",
+    "telephone": "25360686",
+    "lat": 12.3731,
+    "lng": -1.4742,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-jourdain-164",
+    "date": "2026-09-20"
+  },
+  {
     "nom": "Pharmacie Nemadis",
     "adresse": "Ouagadougou, Rue Bogodogo à 500m du Rond point SANDOF en direction de SOGELB(vers le SIAO)",
     "telephone": "25480966",
@@ -337,26 +357,6 @@
     "lng": -1.50802,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-flayiri-127",
-    "date": "2026-09-20"
-  },
-  {
-    "nom": "Pharmacie Jourdain",
-    "adresse": "Ouagadougou, Blvd Tansoba, 100m de l'hôpital Pédiatrique",
-    "telephone": "25360686",
-    "lat": 12.3731,
-    "lng": -1.4742,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-jourdain-164",
-    "date": "2026-09-20"
-  },
-  {
-    "nom": "pharmacie Jabnéel",
-    "adresse": "Ouagadougou, Bendego, Route Coté Sud SONABEL à 700m",
-    "telephone": "25447870",
-    "lat": 12.3892,
-    "lng": -1.45791,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-jabneel-158",
     "date": "2026-09-20"
   },
   {
@@ -380,13 +380,13 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "Pharmacie Viim",
-    "adresse": "Ouagadougou, Nagrin, 100 mètres du Centre Médical",
-    "telephone": null,
-    "lat": 12.2852,
-    "lng": -1.53389,
+    "nom": "Pharmacie  Nayyira",
+    "adresse": "Ouagadougou, Katre Yaar après la gare de Taxis",
+    "telephone": "25481841",
+    "lat": 12.347,
+    "lng": -1.47375,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-viim-362",
+    "fiche_url": "../pharmacie--nayyira-178",
     "date": "2026-09-20"
   },
   {
@@ -400,13 +400,13 @@
     "date": "2026-09-20"
   },
   {
-    "nom": "Pharmacie  Nayyira",
-    "adresse": "Ouagadougou, Katre Yaar après la gare de Taxis",
-    "telephone": "25481841",
-    "lat": 12.347,
-    "lng": -1.47375,
+    "nom": "Pharmacie Viim",
+    "adresse": "Ouagadougou, Nagrin, 100 mètres du Centre Médical",
+    "telephone": null,
+    "lat": 12.2852,
+    "lng": -1.53389,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie--nayyira-178",
+    "fiche_url": "../pharmacie-viim-362",
     "date": "2026-09-20"
   },
   {
