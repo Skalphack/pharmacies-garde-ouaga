@@ -20,16 +20,6 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "Pharmacie Kamboinsin",
-    "adresse": "Ouagadougou, Face du Centre Emetteur de KAMBOINSIN",
-    "telephone": "62574949",
-    "lat": 12.4345,
-    "lng": -1.54942,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-kamboinsin-366",
-    "date": "2026-09-29"
-  },
-  {
     "nom": "Pharmacie St Michel",
     "adresse": "Ouagadougou, Rimkièta non loin de la pharmacie Barkwendé",
     "telephone": "25454808",
@@ -37,6 +27,16 @@
     "lng": -1.5975,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-st-michel-205",
+    "date": "2026-09-29"
+  },
+  {
+    "nom": "Pharmacie Kamboinsin",
+    "adresse": "Ouagadougou, Face du Centre Emetteur de KAMBOINSIN",
+    "telephone": "62574949",
+    "lat": 12.4345,
+    "lng": -1.54942,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-kamboinsin-366",
     "date": "2026-09-29"
   },
   {
@@ -120,6 +120,16 @@
     "date": "2026-09-29"
   },
   {
+    "nom": "pharmacie Arzouma",
+    "adresse": "Ouagadougou, Pissy, à 100m de la clinique du Plateau, non loin de la salle de ciné de Pissy",
+    "telephone": "25480153",
+    "lat": 12.3319,
+    "lng": -1.57458,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-arzouma-59",
+    "date": "2026-09-29"
+  },
+  {
     "nom": "pharmacie Hamamickely",
     "adresse": "Ouagadougou, Somgandé à 300m du CSPS du Sect. 19 ex sect 25, Arrdt 4",
     "telephone": "73783299",
@@ -140,26 +150,6 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "pharmacie Arzouma",
-    "adresse": "Ouagadougou, Pissy, à 100m de la clinique du Plateau, non loin de la salle de ciné de Pissy",
-    "telephone": "25480153",
-    "lat": 12.3319,
-    "lng": -1.57458,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-arzouma-59",
-    "date": "2026-09-29"
-  },
-  {
-    "nom": "pharmacie Kamin",
-    "adresse": "Ouagadougou, Sect. 06 Gounghin, côté Est du marché de Goughin",
-    "telephone": "25343028",
-    "lat": 12.3576,
-    "lng": -1.54559,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-kamin-167",
-    "date": "2026-09-29"
-  },
-  {
     "nom": "Pharmacie  Pissy",
     "adresse": "Ouagadougou, Côté Est CMA de Pissy",
     "telephone": "25431335",
@@ -170,13 +160,13 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "pharmacie Naaba Koom",
-    "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
-    "telephone": "25483334",
-    "lat": 12.3992,
-    "lng": -1.50343,
+    "nom": "pharmacie Kamin",
+    "adresse": "Ouagadougou, Sect. 06 Gounghin, côté Est du marché de Goughin",
+    "telephone": "25343028",
+    "lat": 12.3576,
+    "lng": -1.54559,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-naaba-koom-251",
+    "fiche_url": "../pharmacie-kamin-167",
     "date": "2026-09-29"
   },
   {
@@ -200,6 +190,16 @@
     "date": "2026-09-29"
   },
   {
+    "nom": "pharmacie Naaba Koom",
+    "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
+    "telephone": "25483334",
+    "lat": 12.3992,
+    "lng": -1.50343,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-naaba-koom-251",
+    "date": "2026-09-29"
+  },
+  {
     "nom": "pharmacie Ecoles",
     "adresse": "Ouagadougou, Paspanga, Rue des écoles",
     "telephone": "25315232",
@@ -220,16 +220,6 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "Pharmacie Indépendance",
-    "adresse": "Ouagadougou, 370 Avenue Eli SARE, à 500 mètres de EAU Sahel Ouaga 2000",
-    "telephone": "25376871",
-    "lat": 12.3706,
-    "lng": -1.51602,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-independance-368",
-    "date": "2026-09-29"
-  },
-  {
     "nom": "pharmacie Naab-Raga",
     "adresse": "Ouagadougou, Samandin, Avenue Oumarou KANAZOE à 100m du marché de Naab Raage",
     "telephone": "70143977",
@@ -237,6 +227,16 @@
     "lng": -1.53168,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-naab-raga-250",
+    "date": "2026-09-29"
+  },
+  {
+    "nom": "Pharmacie Indépendance",
+    "adresse": "Ouagadougou, 370 Avenue Eli SARE, à 500 mètres de EAU Sahel Ouaga 2000",
+    "telephone": "25376871",
+    "lat": 12.3706,
+    "lng": -1.51602,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-independance-368",
     "date": "2026-09-29"
   },
   {
@@ -260,16 +260,6 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "Pharmacie Téranga",
-    "adresse": "Ouagadougou, Zogona, 13 avenue Babanguida",
-    "telephone": "25360970",
-    "lat": 12.3818,
-    "lng": -1.49342,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-teranga-201",
-    "date": "2026-09-29"
-  },
-  {
     "nom": "pharmacie Belle Ville à Ouaga",
     "adresse": "Ouagadougou, Route de Komsilga/ BRAFASO/ 75e Anniversaire AD",
     "telephone": "25408414",
@@ -280,23 +270,13 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "pharmacie la Fraternité",
-    "adresse": "Ouagadougou, 100m de ENAREF, Coté ECOBANK",
-    "telephone": null,
-    "lat": 12.3901,
-    "lng": -1.48162,
+    "nom": "Pharmacie Téranga",
+    "adresse": "Ouagadougou, Zogona, 13 avenue Babanguida",
+    "telephone": "25360970",
+    "lat": 12.3818,
+    "lng": -1.49342,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-la-fraternite-129",
-    "date": "2026-09-29"
-  },
-  {
-    "nom": "Pharmacie  St Lazare",
-    "adresse": "Ouagadougou, 1200 Logements, rue 14.54",
-    "telephone": "25368648",
-    "lat": 12.3686,
-    "lng": -1.49978,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--st-lazare-206",
+    "fiche_url": "../pharmacie-teranga-201",
     "date": "2026-09-29"
   },
   {
@@ -307,6 +287,16 @@
     "lng": -1.53627,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--sante-vitalite-217",
+    "date": "2026-09-29"
+  },
+  {
+    "nom": "Pharmacie  St Lazare",
+    "adresse": "Ouagadougou, 1200 Logements, rue 14.54",
+    "telephone": "25368648",
+    "lat": 12.3686,
+    "lng": -1.49978,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--st-lazare-206",
     "date": "2026-09-29"
   },
   {
@@ -330,13 +320,13 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "Pharmacie Ninrwa",
-    "adresse": "Ouagadougou, Toute Benogo - Kossodo( Av Colonel A. Michel OUEDRAOGO) Bogodogo à 400m du marché",
-    "telephone": "25418038",
-    "lat": 12.4052,
-    "lng": -1.45669,
+    "nom": "pharmacie la Fraternité",
+    "adresse": "Ouagadougou, 100m de ENAREF, Coté ECOBANK",
+    "telephone": null,
+    "lat": 12.3901,
+    "lng": -1.48162,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-ninrwa-267",
+    "fiche_url": "../pharmacie-la-fraternite-129",
     "date": "2026-09-29"
   },
   {
@@ -360,16 +350,6 @@
     "date": "2026-09-29"
   },
   {
-    "nom": "Pharmacie  Taoko",
-    "adresse": "Ouagadougou, Blvd Tansoba, à 500m de l'échangeur de l'Est",
-    "telephone": "25366927",
-    "lat": 12.3872,
-    "lng": -1.469,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--taoko-202",
-    "date": "2026-09-29"
-  },
-  {
     "nom": "pharmacie Coura",
     "adresse": "Ouagadougou, 200m Côté oueste du rond-point des Droits Humains",
     "telephone": "25388390",
@@ -377,6 +357,26 @@
     "lng": -1.51927,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-coura-93",
+    "date": "2026-09-29"
+  },
+  {
+    "nom": "Pharmacie Ninrwa",
+    "adresse": "Ouagadougou, Toute Benogo - Kossodo( Av Colonel A. Michel OUEDRAOGO) Bogodogo à 400m du marché",
+    "telephone": "25418038",
+    "lat": 12.4052,
+    "lng": -1.45669,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-ninrwa-267",
+    "date": "2026-09-29"
+  },
+  {
+    "nom": "Pharmacie  Taoko",
+    "adresse": "Ouagadougou, Blvd Tansoba, à 500m de l'échangeur de l'Est",
+    "telephone": "25366927",
+    "lat": 12.3872,
+    "lng": -1.469,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--taoko-202",
     "date": "2026-09-29"
   },
   {
@@ -410,6 +410,16 @@
     "date": "2026-09-29"
   },
   {
+    "nom": "pharmacie Nagrin",
+    "adresse": "Ouagadougou, Route de Saponé avant l'hôpital Balise Compaoré",
+    "telephone": "25469048",
+    "lat": 12.2898,
+    "lng": -1.52982,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-nagrin-252",
+    "date": "2026-09-29"
+  },
+  {
     "nom": "pharmacie Hosanna",
     "adresse": "Ouagadougou, Route de Fada en face du lycée Naba Yemdé",
     "telephone": "25412648",
@@ -427,16 +437,6 @@
     "lng": -1.46015,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-tiyele-200",
-    "date": "2026-09-29"
-  },
-  {
-    "nom": "pharmacie Nagrin",
-    "adresse": "Ouagadougou, Route de Saponé avant l'hôpital Balise Compaoré",
-    "telephone": "25469048",
-    "lat": 12.2898,
-    "lng": -1.52982,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-nagrin-252",
     "date": "2026-09-29"
   },
   {
