@@ -130,16 +130,6 @@
     "date": "2026-10-11"
   },
   {
-    "nom": "Pharmacie  Wend La Lafi",
-    "adresse": "Ouagadougou, Ouartie Pissy, Route de Bobo, en face de la station Shell de Pissy",
-    "telephone": "25431213",
-    "lat": 12.3423,
-    "lng": -1.57282,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--wend-la-lafi-194",
-    "date": "2026-10-11"
-  },
-  {
     "nom": "pharmacie Desa",
     "adresse": "Ouagadougou, Tanghin, non loin de Hôtel Ricardo",
     "telephone": "25475050",
@@ -147,6 +137,16 @@
     "lng": -1.52927,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-desa-99",
+    "date": "2026-10-11"
+  },
+  {
+    "nom": "Pharmacie  Wend La Lafi",
+    "adresse": "Ouagadougou, Ouartie Pissy, Route de Bobo, en face de la station Shell de Pissy",
+    "telephone": "25431213",
+    "lat": 12.3423,
+    "lng": -1.57282,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--wend-la-lafi-194",
     "date": "2026-10-11"
   },
   {
@@ -250,16 +250,6 @@
     "date": "2026-10-11"
   },
   {
-    "nom": "pharmacie Jober",
-    "adresse": "Ouagadougou, IMMEUBLE SIMPORE AVENUE DIEUDONNE",
-    "telephone": "25455175",
-    "lat": 12.3242,
-    "lng": -1.55615,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-jober-162",
-    "date": "2026-10-11"
-  },
-  {
     "nom": "pharmacie de Kossodo",
     "adresse": "Ouagadougou, Kossodo, En face de l'abattoir de Kossodo, après la BOA",
     "telephone": "25356304",
@@ -267,6 +257,16 @@
     "lng": -1.47333,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-de-kossodo-232",
+    "date": "2026-10-11"
+  },
+  {
+    "nom": "pharmacie Jober",
+    "adresse": "Ouagadougou, IMMEUBLE SIMPORE AVENUE DIEUDONNE",
+    "telephone": "25455175",
+    "lat": 12.3242,
+    "lng": -1.55615,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-jober-162",
     "date": "2026-10-11"
   },
   {
@@ -420,16 +420,6 @@
     "date": "2026-10-11"
   },
   {
-    "nom": "Pharmacie St Jean",
-    "adresse": "Ouagadougou, Rue 30.240 Blwd. Tansoaba; Bâtiment de ISDA, 500m de l'Hôpital de Bogodgo Ex-CMA 30",
-    "telephone": "25370033",
-    "lat": 12.3428,
-    "lng": -1.49386,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-st-jean-208",
-    "date": "2026-10-11"
-  },
-  {
     "nom": "Pharmacie Les Champions",
     "adresse": "Ouagadougou, A environ 100 mètres du marché de 14 Yaar",
     "telephone": "51001525",
@@ -437,6 +427,16 @@
     "lng": -1.46052,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-les-champions-356",
+    "date": "2026-10-11"
+  },
+  {
+    "nom": "Pharmacie St Jean",
+    "adresse": "Ouagadougou, Rue 30.240 Blwd. Tansoaba; Bâtiment de ISDA, 500m de l'Hôpital de Bogodgo Ex-CMA 30",
+    "telephone": "25370033",
+    "lat": 12.3428,
+    "lng": -1.49386,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-st-jean-208",
     "date": "2026-10-11"
   },
   {
