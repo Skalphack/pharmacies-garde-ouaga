@@ -170,16 +170,6 @@
     "date": "2026-10-30"
   },
   {
-    "nom": "Pharmacie  Sacré Coeur",
-    "adresse": "Ouagadougou, Avenue Simon Compaoré, à 500m du lycée Miste de Gounghin, en partant vers Watam Kaiser",
-    "telephone": "25346060",
-    "lat": 12.3511,
-    "lng": -1.54624,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--sacre-coeur-219",
-    "date": "2026-10-30"
-  },
-  {
     "nom": "pharmacie Naaba Koom",
     "adresse": "Ouagadougou, 200m de la Clinique Note-Dame-de-la-Paix",
     "telephone": "25483334",
@@ -187,6 +177,16 @@
     "lng": -1.50343,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-naaba-koom-251",
+    "date": "2026-10-30"
+  },
+  {
+    "nom": "Pharmacie  Sacré Coeur",
+    "adresse": "Ouagadougou, Avenue Simon Compaoré, à 500m du lycée Miste de Gounghin, en partant vers Watam Kaiser",
+    "telephone": "25346060",
+    "lat": 12.3511,
+    "lng": -1.54624,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--sacre-coeur-219",
     "date": "2026-10-30"
   },
   {
