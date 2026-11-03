@@ -50,16 +50,6 @@
     "date": "2026-11-03"
   },
   {
-    "nom": "Pharmacie Hamid",
-    "adresse": "Ouagadougou, Route Nationale N°1 (RN1) e face de la SONAPOST de Zagtouly",
-    "telephone": "79613172",
-    "lat": 12.3265,
-    "lng": -1.62738,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-hamid-374",
-    "date": "2026-11-03"
-  },
-  {
     "nom": "Pharmacie Nongui",
     "adresse": "Ouagadougou, Tampouy",
     "telephone": "25408488",
@@ -67,6 +57,16 @@
     "lng": -1.57531,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-nongui-266",
+    "date": "2026-11-03"
+  },
+  {
+    "nom": "Pharmacie Hamid",
+    "adresse": "Ouagadougou, Route Nationale N°1 (RN1) e face de la SONAPOST de Zagtouly",
+    "telephone": "79613172",
+    "lat": 12.3265,
+    "lng": -1.62738,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-hamid-374",
     "date": "2026-11-03"
   },
   {
@@ -150,16 +150,6 @@
     "date": "2026-11-03"
   },
   {
-    "nom": "pharmacie Adama",
-    "adresse": "Ouagadougou, En face du Marché de Pissy non loin de la Caisse Populaire",
-    "telephone": "62337777",
-    "lat": 12.3357,
-    "lng": -1.56836,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-adama-47",
-    "date": "2026-11-03"
-  },
-  {
     "nom": "Pharmacie Louis Pasteur",
     "adresse": "Ouagadougou, Av. Dapoya à 400m de l'église Catholique",
     "telephone": "25335867",
@@ -167,6 +157,16 @@
     "lng": -1.52798,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-louis-pasteur-257",
+    "date": "2026-11-03"
+  },
+  {
+    "nom": "pharmacie Adama",
+    "adresse": "Ouagadougou, En face du Marché de Pissy non loin de la Caisse Populaire",
+    "telephone": "62337777",
+    "lat": 12.3357,
+    "lng": -1.56836,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-adama-47",
     "date": "2026-11-03"
   },
   {
@@ -280,16 +280,6 @@
     "date": "2026-11-03"
   },
   {
-    "nom": "pharmacie Amitié Miyougou",
-    "adresse": "Ouagadougou, Boulevard de la circulation, sect 25 Cissin à 200m du marché de Paagla yiri",
-    "telephone": "25385236",
-    "lat": 12.3345,
-    "lng": -1.53524,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-amitie-53",
-    "date": "2026-11-03"
-  },
-  {
     "nom": "Pharmacie Wayalghin",
     "adresse": "Ouagadougou, En Face du mur du camps CRS, vers ANTBA(en venant de la MACO à gauche après l'ENAREF)",
     "telephone": "25395208",
@@ -297,6 +287,16 @@
     "lng": -1.47869,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-wayalghin-377",
+    "date": "2026-11-03"
+  },
+  {
+    "nom": "pharmacie Amitié Miyougou",
+    "adresse": "Ouagadougou, Boulevard de la circulation, sect 25 Cissin à 200m du marché de Paagla yiri",
+    "telephone": "25385236",
+    "lat": 12.3345,
+    "lng": -1.53524,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-amitie-53",
     "date": "2026-11-03"
   },
   {
@@ -310,16 +310,6 @@
     "date": "2026-11-03"
   },
   {
-    "nom": "Pharmacie  Wend-Kuuni",
-    "adresse": "Ouagadougou, Blvd Charles De Gaulle non loin de la mosquée de l'AEEMB",
-    "telephone": "25362015",
-    "lat": 12.3756,
-    "lng": -1.48757,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--wend-kuuni-190",
-    "date": "2026-11-03"
-  },
-  {
     "nom": "Pharmacie  Sotissé",
     "adresse": "Ouagadougou, Quartier Wayalguin à coté de la Clinique de l'Est",
     "telephone": "25364148",
@@ -327,6 +317,16 @@
     "lng": -1.46852,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--sotisse-211",
+    "date": "2026-11-03"
+  },
+  {
+    "nom": "Pharmacie  Wend-Kuuni",
+    "adresse": "Ouagadougou, Blvd Charles De Gaulle non loin de la mosquée de l'AEEMB",
+    "telephone": "25362015",
+    "lat": 12.3756,
+    "lng": -1.48757,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--wend-kuuni-190",
     "date": "2026-11-03"
   },
   {
@@ -350,16 +350,6 @@
     "date": "2026-11-03"
   },
   {
-    "nom": "pharmacie Kouma",
-    "adresse": "Ouagadougou, Boulevard France-Afrique Ouaga 2000, à 100m de Ouaga FM",
-    "telephone": "25385742",
-    "lat": 12.3131,
-    "lng": -1.52905,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-kouma-233",
-    "date": "2026-11-03"
-  },
-  {
     "nom": "pharmacie Miséricorde",
     "adresse": "Ouagadougou, Dassasgho, coté Nord de l'Eglise de Karambiri à 300 mètres",
     "telephone": "25652264",
@@ -367,6 +357,16 @@
     "lng": -1.4634,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-misericorde-246",
+    "date": "2026-11-03"
+  },
+  {
+    "nom": "pharmacie Kouma",
+    "adresse": "Ouagadougou, Boulevard France-Afrique Ouaga 2000, à 100m de Ouaga FM",
+    "telephone": "25385742",
+    "lat": 12.3131,
+    "lng": -1.52905,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-kouma-233",
     "date": "2026-11-03"
   },
   {
@@ -400,16 +400,6 @@
     "date": "2026-11-03"
   },
   {
-    "nom": "Pharmacie Ouédraogo Rémi",
-    "adresse": "Ouagadougou, Av. des Tansoba KIEMA, sous l'immeuble résidence Alice face à la SONABEL Zad",
-    "telephone": "25371652",
-    "lat": 12.3353,
-    "lng": -1.49903,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-ouedraogo-263",
-    "date": "2026-11-03"
-  },
-  {
     "nom": "Pharmacie Pierre Tapsoba",
     "adresse": "Ouagadougou, Saaba à 100m de la Station OTAM",
     "telephone": "25508148",
@@ -417,6 +407,16 @@
     "lng": -1.44338,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-pierre-tapsoba-261",
+    "date": "2026-11-03"
+  },
+  {
+    "nom": "Pharmacie Ouédraogo Rémi",
+    "adresse": "Ouagadougou, Av. des Tansoba KIEMA, sous l'immeuble résidence Alice face à la SONABEL Zad",
+    "telephone": "25371652",
+    "lat": 12.3353,
+    "lng": -1.49903,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-ouedraogo-263",
     "date": "2026-11-03"
   },
   {
