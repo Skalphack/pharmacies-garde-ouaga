@@ -10,16 +10,6 @@
     "date": "2026-11-14"
   },
   {
-    "nom": "Pharmacie Sainte Véronique",
-    "adresse": "Ouagadougou, Zagtouli , En face du marché de Zagtouli sur la route CIMAT",
-    "telephone": "63260404",
-    "lat": 12.3282,
-    "lng": -1.63219,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sainte-veronique-363",
-    "date": "2026-11-14"
-  },
-  {
     "nom": "Pharmacie  Rakismanegre",
     "adresse": "Ouagadougou, Tampouy, Non loin du Chateau d'eau, sur la voie de la nouvelle mairie de l'arrdt 9",
     "telephone": "25401134",
@@ -27,6 +17,16 @@
     "lng": -1.56879,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--rakismanegre-223",
+    "date": "2026-11-14"
+  },
+  {
+    "nom": "Pharmacie Sainte Véronique",
+    "adresse": "Ouagadougou, Zagtouli , En face du marché de Zagtouli sur la route CIMAT",
+    "telephone": "63260404",
+    "lat": 12.3282,
+    "lng": -1.63219,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sainte-veronique-363",
     "date": "2026-11-14"
   },
   {
@@ -170,6 +170,16 @@
     "date": "2026-11-14"
   },
   {
+    "nom": "Pharmacie  Neima",
+    "adresse": "Ouagadougou, Somgandé, Toukin Yaar",
+    "telephone": "25655682",
+    "lat": 12.412,
+    "lng": -1.49599,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie--neima-177",
+    "date": "2026-11-14"
+  },
+  {
     "nom": "pharmacie Heera",
     "adresse": "Ouagadougou, Av. MOGHO NAABA non loin de l'église Jean XXIII",
     "telephone": "25316610",
@@ -177,16 +187,6 @@
     "lng": -1.53412,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-heera-150",
-    "date": "2026-11-14"
-  },
-  {
-    "nom": "Pharmacie  Martin",
-    "adresse": "Ouagadougou, Av. de la Dignité, non loin de la radio SAVANE FM",
-    "telephone": "25508459",
-    "lat": 12.3282,
-    "lng": -1.55117,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie--martin-181",
     "date": "2026-11-14"
   },
   {
@@ -200,6 +200,16 @@
     "date": "2026-11-14"
   },
   {
+    "nom": "Pharmacie Agoro Rood-Woko",
+    "adresse": "Ouagadougou, Marché Rood Wooko face à DIACFA Librairie",
+    "telephone": "25308890",
+    "lat": 12.3695,
+    "lng": -1.52255,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-rood-woko-174",
+    "date": "2026-11-14"
+  },
+  {
     "nom": "Pharmacie Wati",
     "adresse": "Ouagadougou, Cissin à 200m de l'Ecole de Santé St Edvige",
     "telephone": "25385292",
@@ -210,23 +220,13 @@
     "date": "2026-11-14"
   },
   {
-    "nom": "Pharmacie  Neima",
-    "adresse": "Ouagadougou, Somgandé, Toukin Yaar",
-    "telephone": "25655682",
-    "lat": 12.412,
-    "lng": -1.49599,
+    "nom": "Pharmacie  Martin",
+    "adresse": "Ouagadougou, Av. de la Dignité, non loin de la radio SAVANE FM",
+    "telephone": "25508459",
+    "lat": 12.3282,
+    "lng": -1.55117,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie--neima-177",
-    "date": "2026-11-14"
-  },
-  {
-    "nom": "Pharmacie Agoro Rood-Woko",
-    "adresse": "Ouagadougou, Marché Rood Wooko face à DIACFA Librairie",
-    "telephone": "25308890",
-    "lat": 12.3695,
-    "lng": -1.52255,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-rood-woko-174",
+    "fiche_url": "../pharmacie--martin-181",
     "date": "2026-11-14"
   },
   {
@@ -250,13 +250,13 @@
     "date": "2026-11-14"
   },
   {
-    "nom": "Pharmacie Danouma",
-    "adresse": "Ouagadougou, Bonheur Ville à 300mètres du rond-point de la transition",
-    "telephone": "25395554",
-    "lat": 12.2892,
-    "lng": -1.56353,
+    "nom": "Pharmacie Koulouba",
+    "adresse": "Ouagadougou, Koulouba à 200m côté Ouest du marché de Boins-Yaaré",
+    "telephone": "25311918",
+    "lat": 12.3668,
+    "lng": -1.50964,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-danouma-361",
+    "fiche_url": "../pharmacie-koulouba-184",
     "date": "2026-11-14"
   },
   {
@@ -270,13 +270,13 @@
     "date": "2026-11-14"
   },
   {
-    "nom": "Pharmacie Koulouba",
-    "adresse": "Ouagadougou, Koulouba à 200m côté Ouest du marché de Boins-Yaaré",
-    "telephone": "25311918",
-    "lat": 12.3668,
-    "lng": -1.50964,
+    "nom": "Pharmacie Danouma",
+    "adresse": "Ouagadougou, Bonheur Ville à 300mètres du rond-point de la transition",
+    "telephone": "25395554",
+    "lat": 12.2892,
+    "lng": -1.56353,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-koulouba-184",
+    "fiche_url": "../pharmacie-danouma-361",
     "date": "2026-11-14"
   },
   {
@@ -287,16 +287,6 @@
     "lng": -1.46306,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-meira-180",
-    "date": "2026-11-14"
-  },
-  {
-    "nom": "pharmacie du Faso",
-    "adresse": "Ouagadougou, Patte-d'oie, Blvd France - Afrique à 300m de l'agence BOA à france-Afrique",
-    "telephone": "25381929",
-    "lat": 12.3219,
-    "lng": -1.52803,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-du-faso-126",
     "date": "2026-11-14"
   },
   {
@@ -317,6 +307,16 @@
     "lng": -1.47209,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-delwinde-97",
+    "date": "2026-11-14"
+  },
+  {
+    "nom": "pharmacie du Faso",
+    "adresse": "Ouagadougou, Patte-d'oie, Blvd France - Afrique à 300m de l'agence BOA à france-Afrique",
+    "telephone": "25381929",
+    "lat": 12.3219,
+    "lng": -1.52803,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-du-faso-126",
     "date": "2026-11-14"
   },
   {
@@ -350,16 +350,6 @@
     "date": "2026-11-14"
   },
   {
-    "nom": "Pharmacie Viim",
-    "adresse": "Ouagadougou, Nagrin, 100 mètres du Centre Médical",
-    "telephone": null,
-    "lat": 12.2852,
-    "lng": -1.53389,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-viim-362",
-    "date": "2026-11-14"
-  },
-  {
     "nom": "Pharmacie Jourdain",
     "adresse": "Ouagadougou, Blvd Tansoba, 100m de l'hôpital Pédiatrique",
     "telephone": "25360686",
@@ -370,13 +360,13 @@
     "date": "2026-11-14"
   },
   {
-    "nom": "pharmacie Augustine",
-    "adresse": "Ouagadougou, Ouaga 200 à environ 300m de l'échangeur en partance vers le monument des martyres",
-    "telephone": "25376100",
-    "lat": 12.3255,
-    "lng": -1.50294,
+    "nom": "Pharmacie Viim",
+    "adresse": "Ouagadougou, Nagrin, 100 mètres du Centre Médical",
+    "telephone": null,
+    "lat": 12.2852,
+    "lng": -1.53389,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-augustine-61",
+    "fiche_url": "../pharmacie-viim-362",
     "date": "2026-11-14"
   },
   {
@@ -387,6 +377,16 @@
     "lng": -1.45791,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-jabneel-158",
+    "date": "2026-11-14"
+  },
+  {
+    "nom": "pharmacie Augustine",
+    "adresse": "Ouagadougou, Ouaga 200 à environ 300m de l'échangeur en partance vers le monument des martyres",
+    "telephone": "25376100",
+    "lat": 12.3255,
+    "lng": -1.50294,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-augustine-61",
     "date": "2026-11-14"
   },
   {
