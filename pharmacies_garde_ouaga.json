@@ -160,16 +160,6 @@
     "date": "2026-11-18"
   },
   {
-    "nom": "pharmacie Amaro",
-    "adresse": "Ouagadougou, Gounghin, Av du Kadiogo, Petit Paris entre le service passeport et le pont kadiogo",
-    "telephone": "25343328",
-    "lat": 12.3611,
-    "lng": -1.53985,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-amaro-51",
-    "date": "2026-11-18"
-  },
-  {
     "nom": "pharmacie Dapoya",
     "adresse": "Ouagadougou, Dapoya, face immeuble acimex, Sankar-Yaaré",
     "telephone": "25313201",
@@ -177,6 +167,16 @@
     "lng": -1.52313,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-dapoya-96",
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "pharmacie Amaro",
+    "adresse": "Ouagadougou, Gounghin, Av du Kadiogo, Petit Paris entre le service passeport et le pont kadiogo",
+    "telephone": "25343328",
+    "lat": 12.3611,
+    "lng": -1.53985,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-amaro-51",
     "date": "2026-11-18"
   },
   {
