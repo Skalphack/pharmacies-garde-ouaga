@@ -7,7 +7,7 @@
     "lng": -1.59773,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-sig---noghin-41",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie  Rakismanegre",
@@ -17,17 +17,7 @@
     "lng": -1.56879,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--rakismanegre-223",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "Pharmacie Sainte Véronique",
-    "adresse": "Ouagadougou, Zagtouli , En face du marché de Zagtouli sur la route CIMAT",
-    "telephone": "63260404",
-    "lat": 12.3282,
-    "lng": -1.63219,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sainte-veronique-363",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie La Roche",
@@ -37,7 +27,17 @@
     "lng": -1.5822,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-la-roche-364",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Sainte Véronique",
+    "adresse": "Ouagadougou, Zagtouli , En face du marché de Zagtouli sur la route CIMAT",
+    "telephone": "63260404",
+    "lat": 12.3282,
+    "lng": -1.63219,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sainte-veronique-363",
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Ar-Rahma",
@@ -47,7 +47,7 @@
     "lng": -1.57396,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-ar-rahma-58",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Tanko",
@@ -57,7 +57,7 @@
     "lng": -1.55561,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-tanko-141",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Marlass",
@@ -67,17 +67,17 @@
     "lng": -1.54033,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-marlass-182",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
-    "nom": "pharmacie Boulmiougou",
-    "adresse": "Ouagadougou, Arrdts n°6, Sect 27, 166 rue de Boassa, Pissy à 200m du Complexe Scolaire Sainte-Famille",
-    "telephone": "25431268",
-    "lat": 12.3328,
-    "lng": -1.58302,
+    "nom": "Pharmacie Yohanan",
+    "adresse": "Ouagadougou, Toudoubweogo, dernière les rails à côté de l'église",
+    "telephone": "61836161",
+    "lat": 12.4342,
+    "lng": -1.51139,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-boulmiougou-77",
-    "date": "2026-11-17"
+    "fiche_url": "../pharmacie-yohanan-387",
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Hamdalaye",
@@ -87,7 +87,17 @@
     "lng": -1.55134,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-hamdalaye-147",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "pharmacie Boulmiougou",
+    "adresse": "Ouagadougou, Arrdts n°6, Sect 27, 166 rue de Boassa, Pissy à 200m du Complexe Scolaire Sainte-Famille",
+    "telephone": "25431268",
+    "lat": 12.3328,
+    "lng": -1.58302,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-boulmiougou-77",
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Schifeyi",
@@ -97,7 +107,7 @@
     "lng": -1.55867,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-schifeyi-172",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Progrès",
@@ -107,7 +117,7 @@
     "lng": -1.56891,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-progres-175",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Cité An III",
@@ -117,7 +127,7 @@
     "lng": -1.53697,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-cite-an-iii-87",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Sigri",
@@ -127,27 +137,7 @@
     "lng": -1.54894,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-sigri-169",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "Pharmacie Adadoa",
-    "adresse": "Ouagadougou, Entre le CMA de Pissy et le Centre Médical Source de Vie (A 200m du CM source de vie)",
-    "telephone": "63883939",
-    "lat": 12.3345,
-    "lng": -1.56186,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-adadoa-360",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "pharmacie Amaro",
-    "adresse": "Ouagadougou, Gounghin, Av du Kadiogo, Petit Paris entre le service passeport et le pont kadiogo",
-    "telephone": "25343328",
-    "lat": 12.3611,
-    "lng": -1.53985,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-amaro-51",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie  Meteba",
@@ -157,7 +147,27 @@
     "lng": -1.51603,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--meteba-179",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Adadoa",
+    "adresse": "Ouagadougou, Entre le CMA de Pissy et le Centre Médical Source de Vie (A 200m du CM source de vie)",
+    "telephone": "63883939",
+    "lat": 12.3345,
+    "lng": -1.56186,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-adadoa-360",
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "pharmacie Amaro",
+    "adresse": "Ouagadougou, Gounghin, Av du Kadiogo, Petit Paris entre le service passeport et le pont kadiogo",
+    "telephone": "25343328",
+    "lat": 12.3611,
+    "lng": -1.53985,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-amaro-51",
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Dapoya",
@@ -167,7 +177,7 @@
     "lng": -1.52313,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-dapoya-96",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie  Neima",
@@ -177,17 +187,7 @@
     "lng": -1.49599,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--neima-177",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "pharmacie Heera",
-    "adresse": "Ouagadougou, Av. MOGHO NAABA non loin de l'église Jean XXIII",
-    "telephone": "25316610",
-    "lat": 12.3556,
-    "lng": -1.53412,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-heera-150",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Cathédrale",
@@ -197,7 +197,17 @@
     "lng": -1.52846,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-cathedrale-81",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "pharmacie Heera",
+    "adresse": "Ouagadougou, Av. MOGHO NAABA non loin de l'église Jean XXIII",
+    "telephone": "25316610",
+    "lat": 12.3556,
+    "lng": -1.53412,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-heera-150",
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Agoro Rood-Woko",
@@ -207,7 +217,7 @@
     "lng": -1.52255,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-rood-woko-174",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Wati",
@@ -217,7 +227,7 @@
     "lng": -1.54035,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-wati-139",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie  Martin",
@@ -227,17 +237,7 @@
     "lng": -1.55117,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--martin-181",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "Pharmacie Sangoulé Lamizana",
-    "adresse": "Ouagadougou, Av. Yennega à côté de Marina Market centre Ville",
-    "telephone": "25411300",
-    "lat": 12.3652,
-    "lng": -1.521,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sangoule-lamizana-173",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie: Yobi",
@@ -247,7 +247,17 @@
     "lng": -1.51179,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-yobi-138",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Sangoulé Lamizana",
+    "adresse": "Ouagadougou, Av. Yennega à côté de Marina Market centre Ville",
+    "telephone": "25411300",
+    "lat": 12.3652,
+    "lng": -1.521,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sangoule-lamizana-173",
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Koulouba",
@@ -257,27 +267,7 @@
     "lng": -1.50964,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-koulouba-184",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "pharmacie de l'Aéroport",
-    "adresse": "Ouagadougou, Face à l'ASECNA à 500m de l'Aéroport International de Ouagadougou",
-    "telephone": "25314222",
-    "lat": 12.3507,
-    "lng": -1.52069,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-de-laeroport-48",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "Pharmacie Danouma",
-    "adresse": "Ouagadougou, Bonheur Ville à 300mètres du rond-point de la transition",
-    "telephone": "25395554",
-    "lat": 12.2892,
-    "lng": -1.56353,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-danouma-361",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Meira",
@@ -287,17 +277,27 @@
     "lng": -1.46306,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-meira-180",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
-    "nom": "Pharmacie Talba",
-    "adresse": "Ouagadougou, Av. Charles De Gaulle, face au Scolosticat, Zogona",
-    "telephone": "25362225",
-    "lat": 12.3762,
-    "lng": -1.4909,
+    "nom": "pharmacie de l'Aéroport",
+    "adresse": "Ouagadougou, Face à l'ASECNA à 500m de l'Aéroport International de Ouagadougou",
+    "telephone": "25314222",
+    "lat": 12.3507,
+    "lng": -1.52069,
     "statut": "en_garde",
-    "fiche_url": "../pharmacie-talba-142",
-    "date": "2026-11-17"
+    "fiche_url": "../pharmacie-de-laeroport-48",
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Danouma",
+    "adresse": "Ouagadougou, Bonheur Ville à 300mètres du rond-point de la transition",
+    "telephone": "25395554",
+    "lat": 12.2892,
+    "lng": -1.56353,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-danouma-361",
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Delwindé",
@@ -307,7 +307,17 @@
     "lng": -1.47209,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-delwinde-97",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Talba",
+    "adresse": "Ouagadougou, Av. Charles De Gaulle, face au Scolosticat, Zogona",
+    "telephone": "25362225",
+    "lat": 12.3762,
+    "lng": -1.4909,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-talba-142",
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie du Faso",
@@ -317,7 +327,7 @@
     "lng": -1.52803,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-du-faso-126",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Flayiri",
@@ -327,17 +337,7 @@
     "lng": -1.50802,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-flayiri-127",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "Pharmacie Sud",
-    "adresse": "Ouagadougou, Centre Commerciale Ouaga 2000 à coté de l'Hôtel Libya",
-    "telephone": "25376860",
-    "lat": 12.307,
-    "lng": -1.52677,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-sud-168",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Nemadis",
@@ -347,7 +347,17 @@
     "lng": -1.49113,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-nemadis-176",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Sud",
+    "adresse": "Ouagadougou, Centre Commerciale Ouaga 2000 à coté de l'Hôtel Libya",
+    "telephone": "25376860",
+    "lat": 12.307,
+    "lng": -1.52677,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-sud-168",
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Jourdain",
@@ -357,17 +367,7 @@
     "lng": -1.4742,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-jourdain-164",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "Pharmacie Viim",
-    "adresse": "Ouagadougou, Nagrin, 100 mètres du Centre Médical",
-    "telephone": null,
-    "lat": 12.2852,
-    "lng": -1.53389,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-viim-362",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Jabnéel",
@@ -377,7 +377,7 @@
     "lng": -1.45791,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-jabneel-158",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Augustine",
@@ -387,7 +387,17 @@
     "lng": -1.50294,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-augustine-61",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "Pharmacie Viim",
+    "adresse": "Ouagadougou, Nagrin, 100 mètres du Centre Médical",
+    "telephone": null,
+    "lat": 12.2852,
+    "lng": -1.53389,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-viim-362",
+    "date": "2026-11-18"
   },
   {
     "nom": "pharmacie Karpala",
@@ -397,7 +407,7 @@
     "lng": -1.49036,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-karpala-227",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie  Nayyira",
@@ -407,17 +417,7 @@
     "lng": -1.47375,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--nayyira-178",
-    "date": "2026-11-17"
-  },
-  {
-    "nom": "pharmacie Denisa",
-    "adresse": "Ouagadougou, Secteur 14 Komsilga non loin du CHU de Tengandogo",
-    "telephone": "71827660",
-    "lat": 12.2538,
-    "lng": -1.52927,
-    "statut": "en_garde",
-    "fiche_url": "../pharmacie-denisa-98",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie  Lauriers / Les Lorriers",
@@ -427,7 +427,17 @@
     "lng": -1.46743,
     "statut": "en_garde",
     "fiche_url": "../pharmacie--lauriers-183",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
+  },
+  {
+    "nom": "pharmacie Denisa",
+    "adresse": "Ouagadougou, Secteur 14 Komsilga non loin du CHU de Tengandogo",
+    "telephone": "71827660",
+    "lat": 12.2538,
+    "lng": -1.52927,
+    "statut": "en_garde",
+    "fiche_url": "../pharmacie-denisa-98",
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Univers",
@@ -437,7 +447,7 @@
     "lng": -1.42603,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-univers-140",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Zidou",
@@ -447,7 +457,7 @@
     "lng": -1.47645,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-137",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   },
   {
     "nom": "Pharmacie Koumajer",
@@ -457,6 +467,6 @@
     "lng": -1.45368,
     "statut": "en_garde",
     "fiche_url": "../pharmacie-koumajer-365",
-    "date": "2026-11-17"
+    "date": "2026-11-18"
   }
 ]
